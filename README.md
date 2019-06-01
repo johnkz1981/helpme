@@ -1,4 +1,4 @@
-#Mysql
+# Mysql
 # Сброс пароля 
 1. Stop mysql:
 systemctl stop mysqld
@@ -29,9 +29,9 @@ systemctl start mysqld
 # Сменить пользователя
 ALTER USER 'root'@'localhost' IDENTIFIED BY '>ufdnjltnfkm!@#$%*';
 
-#Создать БД
+# Создать БД
 CREATE DATABASE sitemanager CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-#Просмотр количество строк
+# Просмотр количество строк
 select TABLE_NAME, table_rows from information_schema.tables where table_name like 'b_iblock_el%';
 
