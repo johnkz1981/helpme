@@ -26,7 +26,7 @@ systemctl unset-environment MYSQLD_OPTS
 8. Start mysql normally:
 systemctl start mysqld
 
-#Сменить пользователя
+# Сменить пользователя
 ALTER USER 'root'@'localhost' IDENTIFIED BY '>ufdnjltnfkm!@#$%*';
 
 #Создать БД
