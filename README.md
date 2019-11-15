@@ -35,3 +35,9 @@ CREATE DATABASE sitemanager CHARACTER SET utf8 COLLATE utf8_general_ci;
 # Просмотр количество строк
 select TABLE_NAME, table_rows from information_schema.tables where table_name like 'b_iblock_el%';
 
+# Гит работа с ветками
+git clone --branch=johnkz git@gitlab.com:netlab-cod/cod-new-front.git . 
+git brunch -r # просмотр ветки
+git push origin johnkz
+
+
