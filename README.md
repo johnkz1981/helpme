@@ -42,4 +42,7 @@ git brunch -r # просмотр ветки
 
 git push origin johnkz
 
+# Синхранизация с сервером
+rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
+
 
