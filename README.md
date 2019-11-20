@@ -44,5 +44,7 @@ git push origin johnkz
 
 # Синхранизация с сервером
 rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
+# Vee validate example validate.then => Primise
+https://codesandbox.io/embed/vue-template-c5s7m?fontsize=14&module=%2Fsrc%2Fcomponents%2FExample.vue
 
 
