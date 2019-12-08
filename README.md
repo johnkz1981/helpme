@@ -44,10 +44,8 @@ git push origin johnkz
 
 # Синхранизация с сервером
 rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
-# Vee validate example validate.then => Primise
-https://codesandbox.io/embed/vue-template-c5s7m?fontsize=14&module=%2Fsrc%2Fcomponents%2FExample.vue
 
-# CML2 agroup23
+# CML2 agroup23 row=6241
 
     $START_ID = 148150;
     $LAST_ID = 148200;
@@ -73,4 +71,6 @@ https://codesandbox.io/embed/vue-template-c5s7m?fontsize=14&module=%2Fsrc%2Fcomp
 				unset($arFilter["ACTIVE"]);
 		}
 
-
+# Generate and copy public key
+ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
+ssh-copy-id -i ~/.ssh/id_rsa.pub bitrix@192.168.0.102
