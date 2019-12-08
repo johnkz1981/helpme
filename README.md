@@ -47,4 +47,30 @@ rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
 # Vee validate example validate.then => Primise
 https://codesandbox.io/embed/vue-template-c5s7m?fontsize=14&module=%2Fsrc%2Fcomponents%2FExample.vue
 
+# CML2 agroup23
+
+    $START_ID = 148150;
+    $LAST_ID = 148200;
+
+    if($this->next_step["LAST_ID"] == $LAST_ID){
+      $this->next_step["LAST_ID"]++;
+    }
+
+		if(is_array($arElementFilter))
+		{
+			$arFilter = $arElementFilter;
+		}
+		else
+		{
+			if($arElementFilter === "none")
+				return 0;
+			$arFilter = array (
+				"IBLOCK_ID"=> $this->arIBlock["ID"],
+				"ACTIVE" => "Y",
+				"><ID" => [$START_ID > $this->next_step["LAST_ID"] ? $START_ID: $this->next_step["LAST_ID"], $LAST_ID],
+			);
+			if($arElementFilter === "all")
+				unset($arFilter["ACTIVE"]);
+		}
+
 
