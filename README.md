@@ -72,8 +72,8 @@ rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
 		}
 
 # Generate and copy public key
-> ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
-> ssh-copy-id -i ~/.ssh/id_rsa.pub bitrix@192.168.0.102
+* ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
+* ssh-copy-id -i ~/.ssh/id_rsa.pub bitrix@192.168.0.102
 
 # Git откат коммита 
 git revert 263f6a51
