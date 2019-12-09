@@ -78,5 +78,5 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub bitrix@192.168.0.102
 # Git откат коммита 
 git revert 263f6a51
 # Временное переключение
-git checkout '214f4d7e'
-Возврат git checkout johnkz 
+* git checkout '214f4d7e'
+* Возврат git checkout johnkz 
