@@ -1,5 +1,5 @@
-# Mysql
-# Сброс пароля 
+## Mysql
+## Сброс пароля 
 1. Stop mysql:
 systemctl stop mysqld
 
@@ -26,26 +26,26 @@ systemctl unset-environment MYSQLD_OPTS
 8. Start mysql normally:
 systemctl start mysqld
 
-# Сменить пользователя
+## Сменить пользователя
 ALTER USER 'root'@'localhost' IDENTIFIED BY '>ufdnjltnfkm!@#$%*';
 
-# Создать БД
+## Создать БД
 CREATE DATABASE sitemanager CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-# Просмотр количество строк
+## Просмотр количество строк
 select TABLE_NAME, table_rows from information_schema.tables where table_name like 'b_iblock_el%';
 
-# Гит работа с ветками
+## Гит работа с ветками
 git clone --branch=johnkz git@gitlab.com:netlab-cod/cod-new-front.git .
 
 git brunch -r # просмотр ветки
 
 git push origin johnkz
 
-# Синхранизация с сервером
+## Синхранизация с сервером
 rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
 
-# CML2 agroup23 row=6241
+## CML2 agroup23 row=6241
 
     $START_ID = 148150;
     $LAST_ID = 148200;
@@ -71,11 +71,11 @@ rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
 				unset($arFilter["ACTIVE"]);
 		}
 
-# Generate and copy public key
+## Generate and copy public key
 * ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
 * ssh-copy-id -i ~/.ssh/id_rsa.pub bitrix@192.168.0.102
 
-# Git откат коммита 
+## Git откат коммита 
 git revert 263f6a51
  ### Временное переключение
 * git checkout '214f4d7e'
