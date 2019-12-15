@@ -44,7 +44,8 @@ git push origin johnkz
 
 ## Синхранизация с сервером
 * rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
-* rsync -av /home/alexandr/book/ /home/vasilisa/book/
+* rsync -azvh www/upload/ /mnt/
+* https://losst.ru/rsync-primery-sinhronizatsii
 
 ## CML2 agroup23 row=6241
 
