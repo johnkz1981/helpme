@@ -43,7 +43,8 @@ git brunch -r # просмотр ветки
 git push origin johnkz
 
 ## Синхранизация с сервером
-rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
+* rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
+* rsync -av /home/alexandr/book/ /home/vasilisa/book/
 
 ## CML2 agroup23 row=6241
 
