@@ -88,10 +88,10 @@ git revert 263f6a51
 ## Bitrix key
  bitrix/modules/main/include.php
 ## Backup sql
-day_month=`date +%d`
-/usr/bin/mysqldump sitemanager > /home/bitrix/backup/sql/$day_month.sql
-/usr/bin/zip /home/bitrix/backup/sql/$day_month.sql.zip /home/bitrix/backup/sql/$day_month.sql
-/usr/bin/rm /home/bitrix/backup/sql/$day_month.sql
+* day_month=`date +%d`
+* /usr/bin/mysqldump sitemanager > /home/bitrix/backup/sql/$day_month.sql
+* /usr/bin/zip /home/bitrix/backup/sql/$day_month.sql.zip /home/bitrix/backup/sql/$day_month.sql
+* /usr/bin/rm /home/bitrix/backup/sql/$day_month.sql
 
  
 
