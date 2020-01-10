@@ -48,6 +48,7 @@ git push origin johnkz
 ## Синхранизация с сервером
 * rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
 * rsync -azvh www/upload/ /mnt/
+* rsync -avzhe "ssh -p 2222" --progress root@ugautodetal.ru:'/home/vue/\[sharewood.biz\]\ Фреймворк\ NuxtJS/' .
 * https://losst.ru/rsync-primery-sinhronizatsii
 
 ## CML2 agroup23 row=6241
