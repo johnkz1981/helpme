@@ -93,6 +93,10 @@ git revert 263f6a51
 * /usr/bin/mysqldump sitemanager > /home/bitrix/backup/sql/$day_month.sql
 * /usr/bin/zip /home/bitrix/backup/sql/$day_month.sql.zip /home/bitrix/backup/sql/$day_month.sql
 * /usr/bin/rm /home/bitrix/backup/sql/$day_month.sql
+## ssconvert centos 7
+* wget http://repo.iotti.biz/CentOS/7/noarch/lux-release-7-1.noarch.rpm
+* rpm -Uvh lux-release-7-1.noarch.rpm 
+* yum install gnumeric
 
  
 
