@@ -99,5 +99,11 @@ git revert 263f6a51
 * rpm -Uvh lux-release-7-1.noarch.rpm 
 * yum install gnumeric
 
+## Table example
+one|two
+---|---
+1  | 2
+3  | 4
+5  | 6
  
 
