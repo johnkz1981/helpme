@@ -107,5 +107,5 @@ one|two|free|for
 5  | 6 | 7 | 8
  
 ## LineMedia help
-https://help.linemedia.ru/services/learning/course.php?COURSE_ID=4&INDEX=Y
-http://auto.linemedia.ru/cms/video
+* https://help.linemedia.ru/services/learning/course.php?COURSE_ID=4&INDEX=Y
+* http://auto.linemedia.ru/cms/video
