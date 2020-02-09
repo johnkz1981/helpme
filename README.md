@@ -109,3 +109,6 @@ one|two|free|for
 ## LineMedia help
 * https://help.linemedia.ru/services/learning/course.php?COURSE_ID=4&INDEX=Y
 * http://auto.linemedia.ru/cms/video
+## PhpStorm
+* ctrl + shift + del удаление тега
+* ctrl + shift + ins множественный буфер обмена
