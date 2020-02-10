@@ -112,4 +112,4 @@ one|two|free|for
 ## PhpStorm
 * ctrl + shift + del удаление тега
 * ctrl + shift + ins множественный буфер обмена
-https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/
+## https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/
