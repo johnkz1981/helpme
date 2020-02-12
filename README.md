@@ -119,7 +119,7 @@ one|two|free|for
 * апи Артоманова https://github.com/johnkz1981/artamonov.api
 * интерфейс битрикс в ядре d7 https://dev.1c-bitrix.ru/api_d7/bitrix/ui/index.php
 * composer bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=4637&LESSON_PATH=3913.4776.2483.4637
-https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881
+* vue.js bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881
 
 ## Удалить добавить ip адрес
 * ip a del 192.168.20.221/24 dev eth0
