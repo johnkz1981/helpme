@@ -117,6 +117,7 @@ one|two|free|for
 * новая таблица в админке https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/
 * кастомные компоненты http://bbc.samokhvalov.info/
 * апи Артоманова https://github.com/johnkz1981/artamonov.api
+* интерфейс битрикс в ядре d7 https://dev.1c-bitrix.ru/api_d7/bitrix/ui/index.php
 
 ## Удалить добавить ip адрес
 * ip a del 192.168.20.221/24 dev eth0
