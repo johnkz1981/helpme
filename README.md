@@ -125,4 +125,11 @@ one|two|free|for
 ## Удалить добавить ip адрес
 * ip a del 192.168.20.221/24 dev eth0
 * ip a add 192.168.20.221/24 dev eth0
+## Сайт югавтодеталь
+//$arRequestedModules = CUpdateClientPartner::GetRequestedModules("");
+
+//$arUpdateList = CUpdateClientPartner::GetUpdatesList($errorMessage, LANG, $stableVersionsOnly, $arRequestedModules, Array("fullmoduleinfo" => "Y"));
+$strError_tmp = "";
+// $arClientModules = CUpdateClientPartner::GetCurrentModules($strError_tmp);
+
 
