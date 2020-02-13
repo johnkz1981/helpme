@@ -134,5 +134,12 @@ one|two|free|for
 $strError_tmp = "";
 // $arClientModules = CUpdateClientPartner::GetCurrentModules($strError_tmp);
 ```
+* /www/bitrix/modules/main/admin/update_system_partner.php
+```php
+/*
+if (strlen($errorMessage) > 0)
+	echo  CAdminMessage::ShowMessage(Array("DETAILS" => $errorMessage, "TYPE" => "ERROR", "MESSAGE" => GetMessage("SUP_ERROR"), "HTML" => true));
+*/
+```
 
 
