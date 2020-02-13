@@ -126,6 +126,7 @@ one|two|free|for
 * ip a del 192.168.20.221/24 dev eth0
 * ip a add 192.168.20.221/24 dev eth0
 ## Сайт югавтодеталь
+* /www/bitrix/modules/main/admin/partner_modules.php
 ```php
 //$arRequestedModules = CUpdateClientPartner::GetRequestedModules("");
 
