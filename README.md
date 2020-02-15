@@ -81,6 +81,10 @@ git push origin johnkz
 ## Generate and copy public key
 * ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
 * ssh-copy-id -i ~/.ssh/id_rsa.pub bitrix@192.168.0.102
+## SSH тунель
+* ssh -p2222 -N -L 3336:127.0.0.1:3306 bitrix@ugautodetal.ru
+* mysql -ubitrix0 -p -h127.0.0.1 -P3336
+
 
 ## Git откат коммита 
 git revert 263f6a51
