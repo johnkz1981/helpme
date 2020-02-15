@@ -36,6 +36,7 @@ CREATE DATABASE sitemanager CHARACTER SET utf8 COLLATE utf8_general_ci;
 select TABLE_NAME, table_rows from information_schema.tables where table_name like 'b_iblock_el%';
 
 ## timezone
+* SELECT @@global.time_zone;
 * SET GLOBAL time_zone = 'Europe/Moscow';
 * Если ошибка то вначале  mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql mysql
 
