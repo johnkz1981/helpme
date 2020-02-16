@@ -54,7 +54,7 @@ git push origin johnkz
 * https://losst.ru/rsync-primery-sinhronizatsii
 
 ## Поиск find and grep
-*  find . -name 'linemedia.' -exec grep bitrix {} \\;
+*  find . -name 'linemedia.' -print -exec grep bitrix {} \\;
 
 ## CML2 agroup23 row=6241
 
