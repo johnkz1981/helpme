@@ -53,6 +53,9 @@ git push origin johnkz
 * rsync -avzhe "ssh -p 2222" --progress root@ugautodetal.ru:'/home/vue/\[sharewood.biz\]\ Фреймворк\ NuxtJS/' .
 * https://losst.ru/rsync-primery-sinhronizatsii
 
+## Поиск find and grep
+*  find . -name 'linemedia.' -exec grep bitrix {} \;
+
 ## CML2 agroup23 row=6241
 
     $START_ID = 148150;
