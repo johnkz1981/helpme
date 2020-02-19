@@ -121,6 +121,7 @@ one|two|free|for
 * ctrl + shift + del удаление тега
 * ctrl + shift + ins множественный буфер обмена
 * ctrl + shift + U поменять регистр
+* ctrl + i имплементировать методы
 ## Полезные ссылки 
 * новая таблица в админке https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/
 * кастомные компоненты http://bbc.samokhvalov.info/
