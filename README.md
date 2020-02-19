@@ -57,7 +57,7 @@ git push origin johnkz
 *  find . -name 'linemedia.' -print -exec grep bitrix {} \\;
 
 ## CML2 agroup23 row=6241
-
+```php
     $START_ID = 148150;
     $LAST_ID = 148200;
 
@@ -81,7 +81,7 @@ git push origin johnkz
 			if($arElementFilter === "all")
 				unset($arFilter["ACTIVE"]);
 		}
-
+```
 ## Generate and copy public key
 * ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
 * ssh-copy-id -i ~/.ssh/id_rsa.pub bitrix@192.168.0.102
