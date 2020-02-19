@@ -150,5 +150,14 @@ if (strlen($errorMessage) > 0)
 	echo  CAdminMessage::ShowMessage(Array("DETAILS" => $errorMessage, "TYPE" => "ERROR", "MESSAGE" => GetMessage("SUP_ERROR"), "HTML" => true));
 */
 ```
+## Вручную убрать модуль из массива
+/www/bitrix/modules/main/interface/prolog_main_admin.php
+
+```php
+$adminPage->Init();
+unset($adminPage->aModules[49]);
+var_dump($adminPage->aModules);
+// Где 49 ключ модуля в массиве
+```
 
 
