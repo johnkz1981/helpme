@@ -40,12 +40,18 @@ select TABLE_NAME, table_rows from information_schema.tables where table_name li
 * SET GLOBAL time_zone = 'Europe/Moscow';
 * Если ошибка то вначале  mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql mysql
 
+## sql light to csv
+sqlite3  -csv v8_6533_13dce.db  "select * from Goods limit 2;" > tracks.csv
+
 ## Гит работа с ветками
-git clone --branch=johnkz git@gitlab.com:netlab-cod/cod-new-front.git .
-
-git brunch -r # просмотр ветки
-
-git push origin johnkz
+* git clone --branch=johnkz git@gitlab.com:netlab-cod/cod-new-front.git .
+* git brunch -r # просмотр ветки
+* git push origin johnkz
+## Git откат коммита 
+git revert 263f6a51
+ ### Временное переключение
+* git checkout '214f4d7e'
+* Возврат git checkout johnkz
 
 ## Синхранизация с сервером
 * rsync -avzhe ssh * ca77265@ca77265.tmweb.ru:public_html
@@ -88,13 +94,6 @@ git push origin johnkz
 ## SSH тунель
 * ssh -p2222 -N -L 3336:127.0.0.1:3306 bitrix@ugautodetal.ru
 * mysql -ubitrix0 -p -h127.0.0.1 -P3336
-
-
-## Git откат коммита 
-git revert 263f6a51
- ### Временное переключение
-* git checkout '214f4d7e'
-* Возврат git checkout johnkz 
 ## Bitrix key
  bitrix/modules/main/include.php
 ## Backup sql
