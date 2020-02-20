@@ -44,12 +44,3 @@ select TABLE_NAME, table_rows from information_schema.tables where table_name li
 ## sql light to csv
 sqlite3  -csv v8_6533_13dce.db  "select * from Goods limit 2;" > tracks.csv
 
-## Гит работа с ветками
-* git clone --branch=johnkz git@gitlab.com:netlab-cod/cod-new-front.git .
-* git brunch -r # просмотр ветки
-* git push origin johnkz
-## Git откат коммита 
-git revert 263f6a51
- ### Временное переключение
-* git checkout '214f4d7e'
-* Возврат git checkout johnkz
