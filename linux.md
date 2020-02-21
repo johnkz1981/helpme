@@ -6,6 +6,7 @@
 
 ## Поиск find and grep
 *  find . -name 'linemedia.' -print -exec grep bitrix {} \\;
+*  find . -name 'linemedia.' -print -exec grep bitrix + вывод с именем файла
 
 ## Generate and copy public key
 * ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
