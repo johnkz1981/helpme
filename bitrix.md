@@ -33,6 +33,7 @@
  * http://auto.linemedia.ru/cms/video
  
  ## Полезные ссылки 
+ * https://www.1c-bitrix.ru/support/customers/ticket.php?show_wizard=Y
  * новая таблица в админке https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/
  * кастомные компоненты http://bbc.samokhvalov.info/
  * апи Артоманова https://github.com/johnkz1981/artamonov.api
