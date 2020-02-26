@@ -6,3 +6,5 @@
 
 ## PHPstorm для VAgrant
 https://danemacmillan.com/how-to-configure-xdebug-in-phpstorm-through-vagrant/
+## Xdebug Разван
+https://www.youtube.com/watch?v=SA_0ZncpSGI
