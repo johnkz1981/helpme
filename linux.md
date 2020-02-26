@@ -35,5 +35,5 @@
 * Windows netstat -nap tcp | find "9000"
 * Linux netstat -nltp
 ## Wget
-Продолжить закачку -c
+Продолжить закачку -c или -continue
 
