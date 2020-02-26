@@ -42,6 +42,7 @@
  * vue.js bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881
  * https://www.intervolga.ru/blog/projects/poleznye-instrumenty-dlya-tekh-kto-v-odnoy-lodke-s-bitrix/#section6
  * Настройка виртуальной машины битрикс https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&CHAPTER_ID=08809&LESSON_PATH=3908.8809
+ * Настройка инфоблоков Базаров
  
  ## Сайт югавтодеталь
  * /www/bitrix/modules/main/admin/partner_modules.php
