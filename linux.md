@@ -34,3 +34,6 @@
 * MAC lsof -nP -i4TCP | grep LISTEN
 * Windows netstat -nap tcp | find "9000"
 * Linux netstat -nltp
+## Wget
+Продолжить закачку -c
+
