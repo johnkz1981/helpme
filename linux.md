@@ -30,5 +30,7 @@
 ## Удалить добавить ip адрес
 * ip a del 192.168.20.221/24 dev eth0
 * ip a add 192.168.20.221/24 dev eth0
-## Netstat Mac
-lsof -nP -i4TCP | grep LISTEN
+## Netstat
+* MAC lsof -nP -i4TCP | grep LISTEN
+* Windows netstat -nap tcp | find "9000"
+* Linux netstat -nltp
