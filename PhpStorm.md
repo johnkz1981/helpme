@@ -4,7 +4,6 @@
 * ctrl + i имплементировать методы
 * alt + click множественный выбор
 
-## PHPstorm для VAgrant
-https://danemacmillan.com/how-to-configure-xdebug-in-phpstorm-through-vagrant/
+# PhpStorm server xdebug client
 ## Xdebug Разван
 https://www.youtube.com/watch?v=SA_0ZncpSGI
