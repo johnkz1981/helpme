@@ -69,4 +69,5 @@
  var_dump($adminPage->aModules);
  // Где 49 ключ модуля в массиве
  ```
-
+## Тикет в техподдержки
+https://dev.1c-bitrix.ru/community/forums/messages/forum7/topic129058/message642762/?result=new#message642762
