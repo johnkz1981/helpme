@@ -36,4 +36,6 @@
 * Linux netstat -nltp
 ## Wget
 Продолжить закачку -c или -continue
+## firewalld документация
+https://xakep.ru/2017/02/15/firewalld/
 
