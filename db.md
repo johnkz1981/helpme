@@ -40,6 +40,8 @@ select TABLE_NAME, table_rows from information_schema.tables where table_name li
 * SELECT @@global.time_zone;
 * SET GLOBAL time_zone = 'Europe/Moscow';
 * Если ошибка то вначале  mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql mysql
+* [mysqld]
+* default-time-zone="Europe/Moscow"
 
 ## sql light to csv
 sqlite3  -csv v8_6533_13dce.db  "select * from Goods limit 2;" > tracks.csv
