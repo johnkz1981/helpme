@@ -40,4 +40,7 @@
 https://xakep.ru/2017/02/15/firewalld/
 ## Сброс пароля citrix
 https://support.citrix.com/article/CTX214360
+## ls
+* -d использовать только имена каталога ,без файлов внутри
+* ls -d \*/ показать только каталоги
 
