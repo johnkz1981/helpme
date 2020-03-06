@@ -48,8 +48,8 @@ sqlite3  -csv v8_6533_13dce.db  "select * from Goods limit 2;" > tracks.csv
 ## Портицирование
 0. alter table b_iblock_element_prop_s10 drop primary key;
 0. alter table b_iblock_element_prop_s10
-0.	add primary key (IBLOCK_ELEMENT_ID, PROPERTY_540);
-  alter table b_iblock_element_prop_s10
+add primary key (IBLOCK_ELEMENT_ID, PROPERTY_540);
+0.  alter table b_iblock_element_prop_s10
     PARTITION BY LIST(PROPERTY_540) (
           PARTITION citilink VALUES IN (12),
           PARTITION other VALUES IN (0)
