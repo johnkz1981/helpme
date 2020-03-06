@@ -57,3 +57,5 @@ add primary key (IBLOCK_ELEMENT_ID, PROPERTY_540);
 0. SELECT TABLE_NAME, PARTITION_NAME, TABLE_ROWS, AVG_ROW_LENGTH, DATA_LENGTH
       FROM INFORMATION_SCHEMA.PARTITIONS
        WHERE TABLE_NAME = 'b_iblock_element_prop_s10';
+## Обычный индекс
+ create index articul on b_iblock_element_prop_s10 (PROPERTY_389(10));
