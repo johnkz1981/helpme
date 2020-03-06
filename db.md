@@ -46,8 +46,8 @@ select TABLE_NAME, table_rows from information_schema.tables where table_name li
 ## sql light to csv
 sqlite3  -csv v8_6533_13dce.db  "select * from Goods limit 2;" > tracks.csv
 ## Портицирование
-0 alter table b_iblock_element_prop_s10 drop primary key;
-0 alter table b_iblock_element_prop_s10
+1 alter table b_iblock_element_prop_s10 drop primary key;
+2 alter table b_iblock_element_prop_s10
 0	add primary key (IBLOCK_ELEMENT_ID, PROPERTY_540);
   alter table b_iblock_element_prop_s10
     PARTITION BY LIST(PROPERTY_540) (
