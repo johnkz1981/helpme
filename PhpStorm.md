@@ -3,6 +3,7 @@
 * ctrl + shift + U поменять регистр
 * ctrl + i имплементировать методы
 * alt + click множественный выбор
+* alt + shift + стрелка Перемещение строк вверх или вниз
 
 ### *PhpStorm server xdebug client
 ## Xdebug Разван
