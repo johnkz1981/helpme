@@ -36,6 +36,15 @@
 * Linux netstat -nltp
 ## Wget
 Продолжить закачку -c или -continue
+### Внешний ip
+* wget -qO- eth0.me
+* wget -qO- ipinfo.io/ip
+* wget -qO- ipecho.net/plain
+* wget -qO- icanhazip.com
+* wget -qO- ipecho.net
+* wget -qO- ident.me
+* wget -qO- myip.gelma.net
+alias getip="wget -qO - eth0.me"
 ## firewalld документация
 https://xakep.ru/2017/02/15/firewalld/
 ## Сброс пароля citrix
