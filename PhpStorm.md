@@ -4,6 +4,7 @@
 * ctrl + i имплементировать методы
 * alt + click множественный выбор
 * alt + shift + стрелка Перемещение строк вверх или вниз
+* копирование всплывающих сообщений code | inspect code
 
 ### *PhpStorm server xdebug client
 ## Xdebug Разван
