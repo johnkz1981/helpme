@@ -31,6 +31,7 @@
  ## LineMedia help
  * https://help.linemedia.ru/services/learning/course.php?COURSE_ID=4&INDEX=Y
  * http://auto.linemedia.ru/cms/video
+ * Для debug установить файл LinemediaAutoDebug::setOutputFilename($_SERVER['DOCUMENT_ROOT'] . '/__lm.log');
  
  ## Полезные ссылки 
  * https://forwww.com/bitrix-articul-search-p2/ добавление артикула в поиск
