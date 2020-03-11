@@ -34,6 +34,7 @@
 * MAC lsof -nP -i4TCP | grep LISTEN
 * Windows netstat -nap tcp | find "9000"
 * Linux netstat -nltp
+* netstat -np tcp
 ## Wget
 Продолжить закачку -c или -continue
 ### Внешний ip
