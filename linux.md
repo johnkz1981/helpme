@@ -55,5 +55,6 @@ https://support.citrix.com/article/CTX214360
 * ls -d \*/ показать только каталоги
 ## ZSH
 https://isavel.pro/?p=47
-
+## iconv
+параметр -c пропустить warning
 
