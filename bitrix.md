@@ -74,3 +74,5 @@
  ```
 ## Тикет в техподдержки
 https://dev.1c-bitrix.ru/community/forums/messages/forum7/topic129058/message642762/?result=new#message642762
+## Просмотр отправленных писем
+b_event
