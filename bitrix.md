@@ -48,6 +48,7 @@
  * Настройка инфоблоков Базаров https://www.youtube.com/watch?v=1KP1cWM26tU
  * Корзина в D7 https://mrcappuccino.ru/blog/post/work-with-basket-bitrix-d7
  * Любимые функции в D7 https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/
+ * Полезные вещи https://github.com/sidigi/bitrix-info
  
  ## Сайт югавтодеталь
  * /www/bitrix/modules/main/admin/partner_modules.php
