@@ -60,4 +60,7 @@ https://isavel.pro/?p=47
 ## vim
 gg -- в начало
 G  -- в конец
+## sudo
+sudo -i переход в режим root
+
 
