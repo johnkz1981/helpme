@@ -50,6 +50,7 @@
  * Корзина в D7 официальная https://dev.1c-bitrix.ru/api_d7/bitrix/sale/classes/basket/index.php
  * Любимые функции в D7 https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/
  * Полезные вещи https://github.com/sidigi/bitrix-info
+ * Многосайтовость https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=103&INDEX=Y
  
  ## Сайт югавтодеталь
  * /www/bitrix/modules/main/admin/partner_modules.php
