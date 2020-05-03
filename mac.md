@@ -8,5 +8,5 @@ Brew
 ## Dnsmasq
 /usr/local/etc/dnsmasq.conf
 ## Снимки экрана
-Поностью shift + cmd + 3
-Облость shift + cmd + 4
+* Поностью shift + cmd + 3
+* Облость shift + cmd + 4
