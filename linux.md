@@ -57,4 +57,7 @@ https://support.citrix.com/article/CTX214360
 https://isavel.pro/?p=47
 ## iconv
 параметр -c пропустить warning
+## vim
+gg -- в начало
+G  -- в конец
 
