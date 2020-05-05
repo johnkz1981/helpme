@@ -62,5 +62,7 @@ gg -- в начало
 G  -- в конец
 ## sudo
 sudo -i переход в режим root
+## Шпаргалка по Redis
+https://habr.com/ru/post/204354/
 
 
