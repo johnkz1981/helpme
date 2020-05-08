@@ -52,6 +52,7 @@
  * Полезные вещи https://github.com/sidigi/bitrix-info
  * Многосайтовость https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=103&INDEX=Y
  * https://github.com/awesomebitrix/awesome-bitrix
+ * Битрикс проект https://github.com/regiomedia/bitrix-project
  
  ## Сайт югавтодеталь
  * /www/bitrix/modules/main/admin/partner_modules.php
