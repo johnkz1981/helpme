@@ -54,6 +54,7 @@
  * Многосайтовость https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=103&INDEX=Y
  * https://github.com/awesomebitrix/awesome-bitrix
  * Битрикс проект https://github.com/regiomedia/bitrix-project
+ * Композит https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=39&LESSON_ID=2552&LESSON_PATH=3910.2605.2552
  
  ## Сайт югавтодеталь
  * /www/bitrix/modules/main/admin/partner_modules.php
