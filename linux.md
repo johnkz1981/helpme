@@ -70,7 +70,7 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'e0012edf3e80b6978849f
 php composer-setup.php --install-dir=/bin --filename=composer
 php -r "unlink('composer-setup.php');"
 ## Потребляемая ОЗУ
-ps axo rss,comm,pid \
+ps axo rss,comm,pid 
 | awk '{ proc_list[$2]++; proc_list[$2 "," 1] += $1; } 
 END { for (proc in proc_list) { printf("%d\t%s\n", 
 proc_list[proc "," 1],proc); }}' | sort -n | tail -n 10 | sort -rn 
