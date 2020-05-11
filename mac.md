@@ -1,5 +1,7 @@
 ## Менеджер пакетов
 Brew
+* просмотр процессов brew services list
+* остановка процесса brew services stop php@7.2
 ## nginx
 * Запуск "nginx"
 * Стоп nginx -s stop
@@ -10,3 +12,4 @@ Brew
 ## Снимки экрана
 * Поностью shift + cmd + 3
 * Облость shift + cmd + 4
+
