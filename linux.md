@@ -69,11 +69,11 @@ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === 'e0012edf3e80b6978849f5eff0d4b4e4c79ff1609dd1e613307e16318854d24ae64f26d17af3ef0bf7cfb710ca74755a') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 php composer-setup.php --install-dir=/bin --filename=composer
 php -r "unlink('composer-setup.php');"
-
 ## Потребляемая ОЗУ
 ps axo rss,comm,pid \
 | awk '{ proc_list[$2]++; proc_list[$2 "," 1] += $1; } \
 END { for (proc in proc_list) { printf("%d\t%s\n", \
 proc_list[proc "," 1],proc); }}' | sort -n | tail -n 10 | sort -rn \
 | awk '{$1/=1024;printf "%.0fMB\t",$1}{print $2}'
-
+## Количество записий импорт Excel cron
+mysql -e "use sitemanager; select count(id)  from b_iblock_element_prop_s10 join b_iblock_element on id = IBLOCK_ELEMENT_ID where PROPERTY_353 = 'ООО \"Ситилинк\"' and active = 'Y' limit 5;"
