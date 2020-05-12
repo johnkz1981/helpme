@@ -77,3 +77,5 @@ proc_list[proc "," 1],proc); }}' | sort -n | tail -n 10 | sort -rn
 | awk '{$1/=1024;printf "%.0fMB\t",$1}{print $2}'
 ## Количество записий импорт Excel cron
 mysql -e "use sitemanager; select count(id)  from b_iblock_element_prop_s10 join b_iblock_element on id = IBLOCK_ELEMENT_ID where PROPERTY_353 = 'ООО \"Ситилинк\"' and active = 'Y' limit 5;"
+## Systemd
+https://habr.com/ru/company/southbridge/blog/255845/
