@@ -79,3 +79,5 @@ proc_list[proc "," 1],proc); }}' | sort -n | tail -n 10 | sort -rn
 mysql -e "use sitemanager; select count(id)  from b_iblock_element_prop_s10 join b_iblock_element on id = IBLOCK_ELEMENT_ID where PROPERTY_353 = 'ООО \"Ситилинк\"' and active = 'Y' limit 5;"
 ## Systemd
 https://habr.com/ru/company/southbridge/blog/255845/
+## Вытащить сертификаты с сайта
+openssl s_client -showcerts -connect lektravs.ru:443
