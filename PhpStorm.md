@@ -10,3 +10,5 @@ shift + f6 выделенная переменная меняет названи
 ### *PhpStorm server xdebug client
 ## Xdebug Разван
 https://www.youtube.com/watch?v=SA_0ZncpSGI
+## Увилечение текста zoom
+preferences -> editor -> general -> [mouse->change font size zoom width command + mouse wheel]
