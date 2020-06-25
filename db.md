@@ -59,5 +59,5 @@ add primary key (IBLOCK_ELEMENT_ID, PROPERTY_540);
        WHERE TABLE_NAME = 'b_iblock_element_prop_s10';
 ## Обычный индекс с ограничением на 10 символов
  create index articul on b_iblock_element_prop_s10 (PROPERTY_389(10));
-## Информация о таблице в том числе и следующий *AUTOINCREMENT*
+## Информация о таблице в том числе и следующий *autoincrement*
 SHOW TABLE STATUS FROM `database` LIKE 'table'
