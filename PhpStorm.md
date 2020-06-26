@@ -15,3 +15,5 @@ https://www.youtube.com/watch?v=SA_0ZncpSGI
 preferences -> editor -> general -> [mouse->change font size zoom width command + mouse wheel]
 ## Встроенные уроки PHPStorm
 Create New Project -> PhpStorm Workshop Project
+## Видео урки PHPStorm 
+https://weburoki.pro/php-razrabotka-video-kurs-po-ide-phpstorm
