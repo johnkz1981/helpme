@@ -17,4 +17,5 @@ preferences -> editor -> general -> [mouse->change font size zoom width command 
 Create New Project -> PhpStorm Workshop Project
 ## Видео урки PHPStorm 
 https://weburoki.pro/php-razrabotka-video-kurs-po-ide-phpstorm
+*Посмотреть профилирование найти узкий участок кода*
 ### Точки останова находятся на вкладках :star:*Favorites*
