@@ -81,3 +81,5 @@ mysql -e "use sitemanager; select count(id)  from b_iblock_element_prop_s10 join
 https://habr.com/ru/company/southbridge/blog/255845/
 ## Вытащить сертификаты с сайта
 openssl s_client -showcerts -connect lektravs.ru:443
+### Выйти из telnet 
+*quit*
