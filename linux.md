@@ -85,3 +85,6 @@ openssl s_client -showcerts -connect lektravs.ru:443
 *quit*
 ### Memcached cli
 http://dev-lab.info/2012/08/%D0%BCemcached-telnet-interface-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA-memcached-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-telnet/
+
+### Emoji github
+https://www.webfx.com/tools/emoji-cheat-sheet/
