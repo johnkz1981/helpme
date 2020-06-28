@@ -7,6 +7,7 @@
 * alt + shift + стрелка Перемещение строк вверх или вниз
 * копирование всплывающих сообщений code | inspect code
 shift + f6 выделенная переменная меняет название везде
+* double shift поиск
 
 ### *PhpStorm server xdebug client
 ## Xdebug Разван
