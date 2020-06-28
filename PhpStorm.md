@@ -8,8 +8,9 @@
 * копирование всплывающих сообщений code | inspect code
 * shift + f6 выделенная переменная меняет название везде
 * double shift поиск
+* cmd + 12 структура в модульном окне
 
-* Bookmarks
+## Bookmarks
  *
  * Windows/Linux:
  *   F11 Toggle Bookmark
