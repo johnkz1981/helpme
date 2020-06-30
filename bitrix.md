@@ -56,7 +56,7 @@
  * Битрикс проект https://github.com/regiomedia/bitrix-project
  * Композит https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=39&LESSON_ID=2552&LESSON_PATH=3910.2605.2552
  
- ## Сайт югавтодеталь
+ ## Сайт югавтодеталь (Пока снял комментарии)
  * /www/bitrix/modules/main/admin/partner_modules.php
  ```php
  //$arRequestedModules = CUpdateClientPartner::GetRequestedModules("");
