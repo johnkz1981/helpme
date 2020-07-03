@@ -56,7 +56,8 @@ https://support.citrix.com/article/CTX214360
 ## ZSH
 https://isavel.pro/?p=47
 ## iconv
-параметр -c пропустить warning
+* параметр -c пропустить warning
+* iconv -fcp1251 -tutf8 file.txt
 ## vim
 gg -- в начало
 G  -- в конец
@@ -89,3 +90,6 @@ openssl s_client -showcerts -connect lektravs.ru:443
 
 ### Emoji github
 https://www.webfx.com/tools/emoji-cheat-sheet/
+### tail/head Пропустить 20 строк и распечатать 5
+tail -25 file.txt | tail -5
+
