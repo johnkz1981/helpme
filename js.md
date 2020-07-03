@@ -5,4 +5,5 @@ https://webdevblog.ru/15-obyazatelnyh-direktiv-vue-kotorye-znachitelno-uvelichat
 ### reactive time vuejs
 https://cushionapp.com/journal/reactive-time-with-vuejs
 ### Сервер JSON
-https://jsonplaceholder.typicode.com/
+* https://jsonplaceholder.typicode.com/
+* https://restcountries.eu/ *API стран*
