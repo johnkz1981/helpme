@@ -61,6 +61,7 @@ https://isavel.pro/?p=47
 ## vim
 gg -- в начало
 G  -- в конец
+dG удалить все до конца файла
 ## sudo
 sudo -i переход в режим root
 ## Шпаргалка по Redis
