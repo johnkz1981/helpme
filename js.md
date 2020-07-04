@@ -7,3 +7,4 @@ https://cushionapp.com/journal/reactive-time-with-vuejs
 ### Сервер JSON
 * https://jsonplaceholder.typicode.com/
 * https://restcountries.eu/ *API стран*
+* https://www.boredapi.com/
