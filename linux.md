@@ -95,3 +95,5 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 ### tail/head Пропустить 20 строк и распечатать 5
 tail -25 file.txt | tail -5
 
+### Punycode-конвертация
+https://www.reg.ru/whois/
