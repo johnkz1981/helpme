@@ -8,3 +8,5 @@ https://cushionapp.com/journal/reactive-time-with-vuejs
 * https://jsonplaceholder.typicode.com/
 * https://restcountries.eu/ *API стран*
 * https://www.boredapi.com/
+### SOAP
+Программа для тестирования https://www.soapui.org/
