@@ -97,3 +97,5 @@ tail -25 file.txt | tail -5
 
 ### Punycode-конвертация
 https://www.reg.ru/whois/
+### ZSH и Плагины
+https://medium.com/@borekb/zsh-via-msys2-on-windows-3964a943b1ce 
