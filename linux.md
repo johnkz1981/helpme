@@ -5,9 +5,10 @@
 * https://losst.ru/rsync-primery-sinhronizatsii
 
 ## Поиск find and grep
-*  find . -name 'linemedia.' -print -exec grep bitrix {} \\;
-*  find . -name 'linemedia.' -print -exec grep bitrix {} + вывод с именем файла
-*  find . -not -name 'test' -print -maxdepth 1 -exec rm -rf {} \\; удалить все кроме текущей папки
+* find . -name 'linemedia.' -print -exec grep bitrix {} \\;
+* find . -name 'linemedia.' -print -exec grep bitrix {} + вывод с именем файла
+* find . -not -name 'test' -print -maxdepth 1 -exec rm -rf {} \\; удалить все кроме текущей папки
+* find . -not -name 'bitrix' -and -not -name 'vendor'  -and -name '\*.php' -exec grep default_old1 {} +
 
 ## Generate and copy public key
 * ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
