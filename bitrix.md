@@ -7,13 +7,13 @@
  * demo сайта http://vitrina.auto-expert.info/
  * Для debug установить файл LinemediaAutoDebug::setOutputFilename($_SERVER['DOCUMENT_ROOT'] . '/__lm.log'); 
  ## Полезные ссылки 
- * [https://forwww.com/bitrix-articul-search-p2/](добавление артикула в поиск)
- * [новая таблица в админке] (https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/)
- * [кастомные компоненты bbc] (http://bbc.samokhvalov.info/)
- * [апи Артоманова] (https://github.com/johnkz1981/artamonov.api)
- * интерфейс битрикс в ядре d7 https://dev.1c-bitrix.ru/api_d7/bitrix/ui/index.php
- * composer bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=4637&LESSON_PATH=3913.4776.2483.4637
- * vue.js bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881
+ * [добавление артикула в поиск](https://forwww.com/bitrix-articul-search-p2/)
+ * [новая таблица в админке](https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/)
+ * [кастомные компоненты bbc](http://bbc.samokhvalov.info/)
+ * [апи Артоманова](https://github.com/johnkz1981/artamonov.api)
+ * [UI интерфейс битрикс в ядре d7](https://dev.1c-bitrix.ru/api_d7/bitrix/ui/index.php)
+ * [composer bitrix](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=4637&LESSON_PATH=3913.4776.2483.4637)
+ * [vue.js bitrix](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881)
  * https://www.intervolga.ru/blog/projects/poleznye-instrumenty-dlya-tekh-kto-v-odnoy-lodke-s-bitrix/#section6
  * vue.js bitrix кастомный https://dev.1c-bitrix.ru/community/webdev/user/284154/blog/33109/?commentId=114057
  * Настройка виртуальной машины битрикс https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&CHAPTER_ID=08809&LESSON_PATH=3908.8809
