@@ -1,4 +1,34 @@
-## CML2 agroup23 row=6241
+## Bitrix key
+ bitrix/modules/main/include.php 
+ ## LineMedia help
+ * https://help.linemedia.ru/services/learning/course.php?COURSE_ID=4&INDEX=Y
+ * http://auto.linemedia.ru/cms/video
+ * https://www.lucidchart.com/documents/view/4e06-0c98-525bd01e-8fb3-56ae0a009f9d алгоритм поиска
+ * demo сайта http://vitrina.auto-expert.info/
+ * Для debug установить файл LinemediaAutoDebug::setOutputFilename($_SERVER['DOCUMENT_ROOT'] . '/__lm.log'); 
+ ## Полезные ссылки 
+ * [https://forwww.com/bitrix-articul-search-p2/] (добавление артикула в поиск)
+ * [новая таблица в админке] (https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/)
+ * [кастомные компоненты bbc] (http://bbc.samokhvalov.info/)
+ * [апи Артоманова] (https://github.com/johnkz1981/artamonov.api)
+ * интерфейс битрикс в ядре d7 https://dev.1c-bitrix.ru/api_d7/bitrix/ui/index.php
+ * composer bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=4637&LESSON_PATH=3913.4776.2483.4637
+ * vue.js bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881
+ * https://www.intervolga.ru/blog/projects/poleznye-instrumenty-dlya-tekh-kto-v-odnoy-lodke-s-bitrix/#section6
+ * vue.js bitrix кастомный https://dev.1c-bitrix.ru/community/webdev/user/284154/blog/33109/?commentId=114057
+ * Настройка виртуальной машины битрикс https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&CHAPTER_ID=08809&LESSON_PATH=3908.8809
+ * Настройка инфоблоков Базаров https://www.youtube.com/watch?v=1KP1cWM26tU
+ * Корзина в D7 https://mrcappuccino.ru/blog/post/work-with-basket-bitrix-d7
+ * Корзина в D7 официальная https://dev.1c-bitrix.ru/api_d7/bitrix/sale/classes/basket/index.php
+ * Любимые функции в D7 https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/
+ * Полезные вещи https://github.com/sidigi/bitrix-info
+ * Многосайтовость https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=103&INDEX=Y
+ * https://github.com/awesomebitrix/awesome-bitrix
+ * Битрикс проект https://github.com/regiomedia/bitrix-project
+ * Композит https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=39&LESSON_ID=2552&LESSON_PATH=3910.2605.2552
+ * [пример создания модуля D7](https://brainkit.ru/%D0%B1%D0%BB%D0%BE%D0%B3/1%D1%81%D0%B1%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-d7)
+ * [Константы битрикса](https://dev.1c-bitrix.ru/api_help/main/general/constants.php)
+ ## CML2 agroup23 row=6241
 ```php
     $START_ID = 148150;
     $LAST_ID = 148200;
@@ -23,41 +53,7 @@
 			if($arElementFilter === "all")
 				unset($arFilter["ACTIVE"]);
 		}
-```
-
-## Bitrix key
- bitrix/modules/main/include.php
- 
- ## LineMedia help
- * https://help.linemedia.ru/services/learning/course.php?COURSE_ID=4&INDEX=Y
- * http://auto.linemedia.ru/cms/video
- * https://www.lucidchart.com/documents/view/4e06-0c98-525bd01e-8fb3-56ae0a009f9d алгоритм поиска
- * demo сайта http://vitrina.auto-expert.info/
- * Для debug установить файл LinemediaAutoDebug::setOutputFilename($_SERVER['DOCUMENT_ROOT'] . '/__lm.log');
- 
- ## Полезные ссылки 
- * https://forwww.com/bitrix-articul-search-p2/ добавление артикула в поиск
- * новая таблица в админке https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/
- * кастомные компоненты http://bbc.samokhvalov.info/
- * апи Артоманова https://github.com/johnkz1981/artamonov.api
- * интерфейс битрикс в ядре d7 https://dev.1c-bitrix.ru/api_d7/bitrix/ui/index.php
- * composer bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=4637&LESSON_PATH=3913.4776.2483.4637
- * vue.js bitrix https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881
- * https://www.intervolga.ru/blog/projects/poleznye-instrumenty-dlya-tekh-kto-v-odnoy-lodke-s-bitrix/#section6
- * vue.js bitrix кастомный https://dev.1c-bitrix.ru/community/webdev/user/284154/blog/33109/?commentId=114057
- * Настройка виртуальной машины битрикс https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&CHAPTER_ID=08809&LESSON_PATH=3908.8809
- * Настройка инфоблоков Базаров https://www.youtube.com/watch?v=1KP1cWM26tU
- * Корзина в D7 https://mrcappuccino.ru/blog/post/work-with-basket-bitrix-d7
- * Корзина в D7 официальная https://dev.1c-bitrix.ru/api_d7/bitrix/sale/classes/basket/index.php
- * Любимые функции в D7 https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/
- * Полезные вещи https://github.com/sidigi/bitrix-info
- * Многосайтовость https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=103&INDEX=Y
- * https://github.com/awesomebitrix/awesome-bitrix
- * Битрикс проект https://github.com/regiomedia/bitrix-project
- * Композит https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=39&LESSON_ID=2552&LESSON_PATH=3910.2605.2552
- * [пример создания модуля D7](https://brainkit.ru/%D0%B1%D0%BB%D0%BE%D0%B3/1%D1%81%D0%B1%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-d7)
- * [Константы битрикса](https://dev.1c-bitrix.ru/api_help/main/general/constants.php)
- 
+``` 
  ## Сайт югавтодеталь (Пока снял комментарии)
  * /www/bitrix/modules/main/admin/partner_modules.php
  ```php
