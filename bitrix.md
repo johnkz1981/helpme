@@ -13,14 +13,14 @@
  * [апи Артоманова](https://github.com/johnkz1981/artamonov.api)
  * [UI интерфейс битрикс в ядре d7](https://dev.1c-bitrix.ru/api_d7/bitrix/ui/index.php)
  * [composer bitrix](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=4637&LESSON_PATH=3913.4776.2483.4637)
- * [vue.js bitrix](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881)
- * https://www.intervolga.ru/blog/projects/poleznye-instrumenty-dlya-tekh-kto-v-odnoy-lodke-s-bitrix/#section6
- * vue.js bitrix кастомный https://dev.1c-bitrix.ru/community/webdev/user/284154/blog/33109/?commentId=114057
- * Настройка виртуальной машины битрикс https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&CHAPTER_ID=08809&LESSON_PATH=3908.8809
- * Настройка инфоблоков Базаров https://www.youtube.com/watch?v=1KP1cWM26tU
- * Корзина в D7 https://mrcappuccino.ru/blog/post/work-with-basket-bitrix-d7
- * Корзина в D7 официальная https://dev.1c-bitrix.ru/api_d7/bitrix/sale/classes/basket/index.php
- * Любимые функции в D7 https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/
+ * [vue.js bitrix официальная док](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&CHAPTER_ID=011881&LESSON_PATH=3913.4776.11881)
+ * [vue.js bitrix кастомный](https://dev.1c-bitrix.ru/community/webdev/user/284154/blog/33109/?commentId=114057)
+ * [Интерволга](https://www.intervolga.ru/blog/projects/poleznye-instrumenty-dlya-tekh-kto-v-odnoy-lodke-s-bitrix/#section6)
+ * [Настройка виртуальной машины битрикс](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=37&CHAPTER_ID=08809&LESSON_PATH=3908.8809)
+ * [Настройка инфоблоков Базаров](https://www.youtube.com/watch?v=1KP1cWM26tU)
+ * [Корзина в D7 на mrcappuccino.ru](https://mrcappuccino.ru/blog/post/work-with-basket-bitrix-d7)
+ * [Корзина в D7 официальная](https://dev.1c-bitrix.ru/api_d7/bitrix/sale/classes/basket/index.php)
+ * [Любимые функции в D7 от интерволги](https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/)
  * Полезные вещи https://github.com/sidigi/bitrix-info
  * Многосайтовость https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=103&INDEX=Y
  * https://github.com/awesomebitrix/awesome-bitrix
