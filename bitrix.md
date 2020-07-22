@@ -4,6 +4,7 @@
  * https://help.linemedia.ru/services/learning/course.php?COURSE_ID=4&INDEX=Y
  * http://auto.linemedia.ru/cms/video
  * https://www.youtube.com/watch?v=zB8mcpunMew
+ * https://www.youtube.com/watch?v=4hevVnHXik8&t=1677s
  * https://www.lucidchart.com/documents/view/4e06-0c98-525bd01e-8fb3-56ae0a009f9d алгоритм поиска
  * demo сайта http://vitrina.auto-expert.info/
  * Для debug установить файл LinemediaAutoDebug::setOutputFilename($_SERVER['DOCUMENT_ROOT'] . '/__lm.log'); 
