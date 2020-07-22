@@ -96,4 +96,6 @@ $success = CAgent::AddAgent(
 );
 
  CAgent::RemoveModuleAgents('linemedia.autodownloader');
- ```php
+ ```
+ ```mysql
+  select * from b_agent where name like '%line%down%'\G
