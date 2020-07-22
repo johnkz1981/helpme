@@ -28,6 +28,9 @@
 * rpm -Uvh lux-release-7-1.noarch.rpm 
 * yum install gnumeric
 
+## конвертирование xls to csv cp1251
+libreoffice  --convert-to csv --infilter=CSV:44,34,76,1 --headless --outdir dir file.xlsx
+
 ## Удалить добавить ip адрес
 * ip a del 192.168.20.221/24 dev eth0
 * ip a add 192.168.20.221/24 dev eth0
