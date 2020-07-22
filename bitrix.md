@@ -86,3 +86,14 @@
 https://dev.1c-bitrix.ru/community/forums/messages/forum7/topic129058/message642762/?result=new#message642762
 ## Просмотр отправленных писем
 b_event
+## Агенты
+```php
+$success = CAgent::AddAgent(
+  "LinemediaAutoDownloaderDownloadAgent::run();",
+  "linemedia.autodownloader",
+  "N",
+  600
+);
+
+ CAgent::RemoveModuleAgents('linemedia.autodownloader');
+ ```php
