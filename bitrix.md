@@ -99,3 +99,7 @@ $success = CAgent::AddAgent(
  ```
  ```mysql
   select * from b_agent where name like '%line%down%'\G
+  ```
+  ```
+  mysql -e "select * from sitemanager.b_agent where name like '%line%conv%'\G"
+  ```
