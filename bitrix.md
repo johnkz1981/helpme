@@ -1,3 +1,10 @@
+## Избранное
+* [Разработка и эксплуатация высоконагруженных проектов](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=38&LESSON_ID=2798&LESSON_PATH=3909.1925.2909.2798)
+* [1С интеграция](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=131&LESSON_ID=4933&LESSON_PATH=10211.4933#mistake_12)
+* [Инфоблоки схема видео от Интерволга](https://academy.1c-bitrix.ru/education/?COURSE_ID=67&LESSON_ID=6377&LESSON_PATH=5864.6377)
+* [PHPDoc D7 от Интерволга](http://academy.1c-bitrix.ru/education/index.php?COURSE_ID=85&LESSON_ID=7273&LESSON_PATH=7252.7273)
+* [Установка комплексного компанента с удалением всего лишнего от Интерволга](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=95&LESSON_ID=7813&LESSON_PATH=7785.7813)
+* [bitrixdock](https://github.com/bitrixdock/bitrixdock)
 ## Bitrix key
  bitrix/modules/main/include.php 
  ## LineMedia help
