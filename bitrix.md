@@ -5,6 +5,8 @@
 * [PHPDoc D7 от Интерволга](http://academy.1c-bitrix.ru/education/index.php?COURSE_ID=85&LESSON_ID=7273&LESSON_PATH=7252.7273)
 * [Установка комплексного компанента с удалением всего лишнего от Интерволга](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=95&LESSON_ID=7813&LESSON_PATH=7785.7813)
 * [bitrixdock](https://github.com/bitrixdock/bitrixdock)
+* [Как сбросить фасетный индекс?](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9A%D0%B0%D0%BA-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B5%D1%82%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%3F)
+* [Надо до конца прсмотреть](https://github.com/studiofact/wiki-bitrix/wiki)
 ## Bitrix key
  bitrix/modules/main/include.php 
  ## LineMedia help
