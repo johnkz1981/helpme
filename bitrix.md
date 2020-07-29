@@ -7,6 +7,8 @@
 * [bitrixdock](https://github.com/bitrixdock/bitrixdock)
 * [Как сбросить фасетный индекс?](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9A%D0%B0%D0%BA-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B5%D1%82%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%3F)
 * [Надо до конца прсмотреть](https://github.com/studiofact/wiki-bitrix/wiki)
+* [Не официальное API D7](https://doc.budagov.ru/index.html)
+* [Не официальное main.ui.grid.php](https://gist.github.com/hackimov/51b0f54a4e1baf9bac64eee88bab71b2) 
 ## Bitrix key
  bitrix/modules/main/include.php 
  ## LineMedia help
