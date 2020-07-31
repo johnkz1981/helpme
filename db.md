@@ -35,7 +35,17 @@ CREATE DATABASE sitemanager CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 ## Просмотр количество строк
 select TABLE_NAME, table_rows from information_schema.tables where table_name like 'b_iblock_el%';
-
+## Размер бд
+SELECT table_schema AS "Имя базы данных",
+в Мб"> ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS "Размер  
+    -> FROM information_schema.TABLES
+    -> GROUP BY table_schema;
+## Размер таблиц в бд
+SELECT table_name AS "Имя таблицы",
+ROUND(((data_length + index_length) / 1024 / 1024), 2) AS "Size in (MB)"
+FROM information_schema.TABLES
+WHERE table_schema = "wpfc_options"
+ORDER BY (data_length + index_length) DESC;
 ## timezone
 * SELECT @@global.time_zone;
 * SET GLOBAL time_zone = 'Europe/Moscow';
