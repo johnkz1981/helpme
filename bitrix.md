@@ -43,6 +43,7 @@
  * [Константы битрикса](https://dev.1c-bitrix.ru/api_help/main/general/constants.php)
  * [Интерволга соответствие полей с 1с](https://www.intervolga.ru/blog/projects/standartnye-i-polzovatelskie-svoystva-v-bitrikse/)
  * [phpunit](https://bitrix.pushorigin.ru/errors/phpunit)
+ * [phpunit](https://github.com/vldud/bitrix-phpunit)
  ## CML2 agroup23 row=6241
 ```php
     $START_ID = 148150;
