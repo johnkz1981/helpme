@@ -12,4 +12,14 @@ Brew
 ## Снимки экрана
 * Поностью shift + cmd + 3
 * Облость shift + cmd + 4
+## Docker
+* /var/www/bitrixdock
+* docker-compose start
+### Список сетей
+docker network ls
+### Получение информации о сети
+docker network inspect MyOverlayNetwork
+### Подключение работающего контейнера к сети
+docker network connect MyOverlayNetwork nginx
+
 
