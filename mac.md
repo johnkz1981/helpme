@@ -21,5 +21,7 @@ docker network ls
 docker network inspect MyOverlayNetwork
 ### Подключение работающего контейнера к сети
 docker network connect MyOverlayNetwork nginx
+### Подключение работающего контейнера к консоли
+docker exec -it webserver bash
 
 
