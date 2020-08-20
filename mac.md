@@ -23,5 +23,10 @@ docker network inspect MyOverlayNetwork
 docker network connect MyOverlayNetwork nginx
 ### Подключение работающего контейнера к консоли
 docker exec -it webserver bash
-
+### extra hosts для работы сокетов
+networks:
+            - bitrix
+        restart: always
+        extra_hosts:
+            - "bitrix.test:10.100.0.6"
 
