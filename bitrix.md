@@ -116,6 +116,8 @@ $success = CAgent::AddAgent(
   ```
   mysql -e "select * from sitemanager.b_agent where name like '%line%conv%'\G"
   ```
+## Настройка на cron
+https://dev.1c-bitrix.ru/community/webdev/user/8078/blog/implementation-of-all-agents-in-cron/
 ## Проверка работы агентов
 ```bash
 /usr/bin/php -f /home/bitrix/www/bitrix/modules/main/tools/cron_events.php
@@ -124,4 +126,7 @@ $success = CAgent::AddAgent(
 SELECT LAST_EXEC FROM b_agent order by LAST_EXEC desc LIMIT 10;
 SELECT LAST_EXEC FROM b_agent WHERE LAST_EXEC > NOW() - INTERVAL 1 DAY AND IS_PERIOD = "N" LIMIT 1
 ```
-
+## Опции модулей
+```mysql
+select * from b_option;
+```
