@@ -130,3 +130,21 @@ SELECT LAST_EXEC FROM b_agent WHERE LAST_EXEC > NOW() - INTERVAL 1 DAY AND IS_PE
 ```mysql
 select * from b_option;
 ```
+### Monolog
+* Добавление лога в http://yug.test/bitrix/admin/event_log.php
+```php
+$logger = Monolog\Registry::getInstance('feedback');
+      $logger->info('Обновление свойств брендов', array(
+        $res["SETTINGS"]
+      ));
+```
+* tail /home/bitrix/logs/app.log
+```php
+$logger = Monolog\Registry::getInstance('app');
+      $logger->info('Обновление свойств брендов', array(
+        $res["SETTINGS"]
+      ));
+```
+
+
+      
