@@ -145,6 +145,7 @@ $logger = Monolog\Registry::getInstance('app');
         $res["SETTINGS"]
       ));
 ```
+s($data) и d($data) отображение в визуальной части
 
 
       
