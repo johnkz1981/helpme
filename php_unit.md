@@ -28,3 +28,7 @@ final class ExampleTest extends TestCase
 ```cmd
 ./phpunit --filter testOneIsOne
 ```
+* Phpunit для windows русская кодировка
+```php
+$pp = iconv('utf8','cp1251', 'роорропро');
+```
