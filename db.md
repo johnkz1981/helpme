@@ -1,18 +1,13 @@
 
 ## Mysql
+## При подключении PHPSTORM не забыть проверить прослушиваемый tcp
 ## Сброс пароля 
-1. Stop mysql:
+```shell
 systemctl stop mysqld
-
-2. Set the mySQL environment option 
 systemctl set-environment MYSQLD_OPTS="--skip-grant-tables"
-
-3. Start mysql usig the options you just set
 systemctl start mysqld
-
-4. Login as root
 mysql -u root
-
+```
 5. Update the root user password with these mysql commands
 mysql> UPDATE mysql.user SET authentication_string = PASSWORD('>ufdnjltnfkm!@#$%*') WHERE User = 'root' AND Host = 'localhost';
 mysql> FLUSH PRIVILEGES;
