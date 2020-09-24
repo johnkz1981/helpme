@@ -8,20 +8,16 @@ systemctl set-environment MYSQLD_OPTS="--skip-grant-tables"
 systemctl start mysqld
 mysql -u root
 ```
-5. Update the root user password with these mysql commands
-mysql> UPDATE mysql.user SET authentication_string = PASSWORD('>ufdnjltnfkm!@#$%*') WHERE User = 'root' AND Host = 'localhost';
-mysql> FLUSH PRIVILEGES;
-mysql> quit
-
-6. Stop mysql
+```sql
+UPDATE mysql.user SET authentication_string = PASSWORD('>ufdnjltnfkm!@#$%*') WHERE User = 'root' AND Host = 'localhost';
+FLUSH PRIVILEGES;
+quit
+```
+```shell
 systemctl stop mysqld
-
-7. Unset the mySQL envitroment option so it starts normally next time
 systemctl unset-environment MYSQLD_OPTS
-
-8. Start mysql normally:
 systemctl start mysqld
-
+```
 ## Сменить пользователя
 ALTER USER 'root'@'localhost' IDENTIFIED BY '>ufdnjltnfkm!@#$%*';
 
