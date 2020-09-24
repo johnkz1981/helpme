@@ -147,8 +147,10 @@ $logger = Monolog\Registry::getInstance('app');
 ```
 s($data) и d($data) отображение в визуальной части
 ## PUSH-SERVER key
+```shell
 grep SECURITY_KEY /etc/sysconfig/push-server-multi
 SECURITY_KEY=ANzCW8X3ui4GokEqAh8fwinrSBnWj3dU1V0O3knHlwc224vBdIA8Yg1PhPU1G3tQaTcnorGO9skoWPbLiDV5eqnVcH2RgbKCP65yAHjiFfP4RJh60W9sxqISkcQxWQ0U
+```
 
 
       
