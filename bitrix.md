@@ -44,6 +44,7 @@
  * [Интерволга соответствие полей с 1с](https://www.intervolga.ru/blog/projects/standartnye-i-polzovatelskie-svoystva-v-bitrikse/)
  * [phpunit](https://bitrix.pushorigin.ru/errors/phpunit)
  * [phpunit](https://github.com/vldud/bitrix-phpunit)
+ * [Журов](http://zhurov.me/)
  ## CML2 agroup23 row=6241
 ```php
     $START_ID = 148150;
