@@ -45,6 +45,7 @@
  * [phpunit](https://bitrix.pushorigin.ru/errors/phpunit)
  * [phpunit](https://github.com/vldud/bitrix-phpunit)
  * [Журов](http://zhurov.me/)
+ * [CAdminList](https://dev.1c-bitrix.ru/api_help/main/general/admin.section/rubric_admin.php)
  ## CML2 agroup23 row=6241
 ```php
     $START_ID = 148150;
