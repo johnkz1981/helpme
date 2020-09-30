@@ -10,3 +10,14 @@ https://cushionapp.com/journal/reactive-time-with-vuejs
 * https://www.boredapi.com/
 ### SOAP
 Программа для тестирования https://www.soapui.org/
+### get_obj_methods
+```js
+const getMethods = (obj) => {
+    let properties = new Set()
+    let currentObj = obj
+    do {
+      Object.getOwnPropertyNames(currentObj).map(item => properties.add(item))
+    } while ((currentObj = Object.getPrototypeOf(currentObj)))
+    return [...properties.keys()].filter(item => typeof obj[item] === 'function')
+  };
+  ```
