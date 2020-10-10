@@ -76,3 +76,7 @@ add primary key (IBLOCK_ELEMENT_ID, PROPERTY_540);
 ```sql
 SHOW TABLE STATUS FROM `database` LIKE 'table'
 ```
+## sqlite info table
+```sql
+pragma table_info('Remainder');
+```
