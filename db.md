@@ -49,11 +49,11 @@ ORDER BY (data_length + index_length) DESC;
 ```
 ## timezone
 ```sql
-* SELECT @@global.time_zone;
-* SET GLOBAL time_zone = 'Europe/Moscow';
-* Если ошибка то вначале  mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql mysql
-* [mysqld]
-* default-time-zone="Europe/Moscow"
+SELECT @@global.time_zone;
+SET GLOBAL time_zone = 'Europe/Moscow';
+Если ошибка то вначале  mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql mysql
+[mysqld]
+default-time-zone="Europe/Moscow"
 ```
 ## sql light to csv
 ```shell
