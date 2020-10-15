@@ -46,14 +46,15 @@ ROUND(((data_length + index_length) / 1024 / 1024), 2) AS "Size in (MB)"
 FROM information_schema.TABLES
 WHERE table_schema = "wpfc_options"
 ORDER BY (data_length + index_length) DESC;
+```
 ## timezone
+```sql
 * SELECT @@global.time_zone;
 * SET GLOBAL time_zone = 'Europe/Moscow';
 * Если ошибка то вначале  mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql mysql
 * [mysqld]
 * default-time-zone="Europe/Moscow"
 ```
-
 ## sql light to csv
 ```shell
 sqlite3  -csv v8_6533_13dce.db  "select * from Goods limit 2;" > tracks.csv
