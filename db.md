@@ -35,9 +35,9 @@ select TABLE_NAME, table_rows from information_schema.tables where table_name li
 ## Размер бд
 ```sql
 SELECT table_schema AS "Имя базы данных",
-в Мб"> ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS "Размер  
-    -> FROM information_schema.TABLES
-    -> GROUP BY table_schema;
+ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS "Размер  
+FROM information_schema.TABLES
+GROUP BY table_schema;
 ```
 ## Размер таблиц в бд
 ```sql
