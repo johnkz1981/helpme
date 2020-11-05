@@ -155,6 +155,8 @@ SECURITY_KEY=ANzCW8X3ui4GokEqAh8fwinrSBnWj3dU1V0O3knHlwc224vBdIA8Yg1PhPU1G3tQaTc
 ```
 ## ICON ADMIN CSS
 https://ugautodetal.ru/bitrix/panel/main/admin.css 3359
-
+## func_overload
+Замена функций на mb_*
+cp1251 на default_charset
 
       
