@@ -159,4 +159,5 @@ https://ugautodetal.ru/bitrix/panel/main/admin.css 3359
 * Замена функций на mb_*
 * cp1251 на default_charset
 ## Не удалось обнаружить код вызова компонента
-замена всех функций на mb аналог /home/bitrix/www/bitrix/modules/main/classes/general/php_parser.php      
+замена всех функций на mb аналог /home/bitrix/www/bitrix/modules/main/classes/general/php_parser.php
+## При компиляции CSS файлов в битриксе пишется путь
