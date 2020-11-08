@@ -161,3 +161,25 @@ https://ugautodetal.ru/bitrix/panel/main/admin.css 3359
 ## Не удалось обнаружить код вызова компонента
 замена всех функций на mb аналог /home/bitrix/www/bitrix/modules/main/classes/general/php_parser.php
 ## При компиляции CSS файлов в битриксе пишется путь
+## Не палим хеш для официалов
+```html
+Битрикс легко вычисляется через хедер такого содержания:
+
+x-powered-by: PHP/7.0.27
+x-powered-cms: Bitrix Site Manager (5ca35d37c8fb87b7d185bfe727d4b945)
+где хеш - это md5('bitrix'.ваш-ключик.'bitrix');
+
+То есть соленый хеш. Партнеры битрикса имеют возможность по этому хешу выяснить у компании 1с есть ли этот хеш в базе лицензий, и покупался ли на данных ключ конкретный шаблон.
+потому, важно, чтобы этот хеш не светился "в люди".
+Это делается с помощью такой приблуды:
+содаете, если нету файл: /bitrix/php_interface/init.php
+
+и туда добавляете
+<?
+AddEventHandler("main", "OnBeforeProlog", "ChangeHeaders");
+function ChangeHeaders() {
+header("X-Powered-CMS: Bitrix", true);
+header("X-Powered-By: PHP", true);
+}
+Это затирает хеш, и найти концы становится сложнее. Можно туда прописать чужой хеш, при желании.
+```
