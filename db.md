@@ -27,6 +27,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '>ufdnjltnfkm!@#$%*';
 CREATE DATABASE sitemanager CHARACTER SET utf8 COLLATE utf8_general_ci;
 GRANT ALL PRIVILEGES ON sad.* TO bitrix0@localhost;
 flush privileges;
+SHOW GRANTS FOR 'jeffrey'@'localhost';
 ```
 ## Просмотр количество строк
 ```sql
