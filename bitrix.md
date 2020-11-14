@@ -1,5 +1,8 @@
 ## Избранное
-
+* [Константы битрикса](https://dev.1c-bitrix.ru/api_help/main/general/constants.php)
+* [Полезные вещи для Битрикса sadigi](https://github.com/sidigi/bitrix-info)
+* [Потрясающий Битрикс](https://github.com/awesomebitrix/awesome-bitrix)
+* [Битрикс проект](https://github.com/regiomedia/bitrix-project)
 ## Bitrix key
  bitrix/modules/main/include.php 
  ## LineMedia help
@@ -24,14 +27,10 @@
  * [Настройка инфоблоков Базаров](https://www.youtube.com/watch?v=1KP1cWM26tU)
  * [Корзина в D7 на mrcappuccino.ru](https://mrcappuccino.ru/blog/post/work-with-basket-bitrix-d7)
  * [Корзина в D7 официальная](https://dev.1c-bitrix.ru/api_d7/bitrix/sale/classes/basket/index.php)
- * [Любимые функции в D7 от интерволги](https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/)
- * [Полезные вещи для Битрикса sadigi](https://github.com/sidigi/bitrix-info)
- * [Потрясающий Битрикс](https://github.com/awesomebitrix/awesome-bitrix)
- * [Битрикс проект](https://github.com/regiomedia/bitrix-project)
+ * [Любимые функции в D7 от интерволги](https://www.intervolga.ru/blog/projects/d7-analogi-lyubimykh-funktsiy-v-1s-bitriks/) 
  * Многосайтовость https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=103&INDEX=Y 
  * Композит https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=39&LESSON_ID=2552&LESSON_PATH=3910.2605.2552
  * [пример создания модуля D7](https://brainkit.ru/%D0%B1%D0%BB%D0%BE%D0%B3/1%D1%81%D0%B1%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F-d7)
- * [Константы битрикса](https://dev.1c-bitrix.ru/api_help/main/general/constants.php)
  * [Интерволга соответствие полей с 1с](https://www.intervolga.ru/blog/projects/standartnye-i-polzovatelskie-svoystva-v-bitrikse/)
  * [phpunit](https://bitrix.pushorigin.ru/errors/phpunit)
  * [phpunit](https://github.com/vldud/bitrix-phpunit)
