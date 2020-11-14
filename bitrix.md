@@ -1,14 +1,5 @@
 ## Избранное
-* [Разработка и эксплуатация высоконагруженных проектов](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=38&LESSON_ID=2798&LESSON_PATH=3909.1925.2909.2798)
-* [1С интеграция](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=131&LESSON_ID=4933&LESSON_PATH=10211.4933#mistake_12)
-* [Инфоблоки схема видео от Интерволга](https://academy.1c-bitrix.ru/education/?COURSE_ID=67&LESSON_ID=6377&LESSON_PATH=5864.6377)
-* [PHPDoc D7 от Интерволга](http://academy.1c-bitrix.ru/education/index.php?COURSE_ID=85&LESSON_ID=7273&LESSON_PATH=7252.7273)
-* [Установка комплексного компанента с удалением всего лишнего от Интерволга](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=95&LESSON_ID=7813&LESSON_PATH=7785.7813)
-* [bitrixdock](https://github.com/bitrixdock/bitrixdock)
-* [Как сбросить фасетный индекс?](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9A%D0%B0%D0%BA-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B5%D1%82%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%3F)
-* [Надо до конца прсмотреть](https://github.com/studiofact/wiki-bitrix/wiki)
-* [Не официальное API D7](https://doc.budagov.ru/index.html)
-* [Не официальное main.ui.grid.php](https://prominado.ru/blog/gridy-i-filtry-v-bitrix/) 
+
 ## Bitrix key
  bitrix/modules/main/include.php 
  ## LineMedia help
@@ -46,6 +37,16 @@
  * [phpunit](https://github.com/vldud/bitrix-phpunit)
  * [Журов](http://zhurov.me/)
  * [CAdminList](https://dev.1c-bitrix.ru/api_help/main/general/admin.section/rubric_admin.php)
+ * [Разработка и эксплуатация высоконагруженных проектов](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=38&LESSON_ID=2798&LESSON_PATH=3909.1925.2909.2798)
+* [1С интеграция](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=131&LESSON_ID=4933&LESSON_PATH=10211.4933#mistake_12)
+* [Инфоблоки схема видео от Интерволга](https://academy.1c-bitrix.ru/education/?COURSE_ID=67&LESSON_ID=6377&LESSON_PATH=5864.6377)
+* [PHPDoc D7 от Интерволга](http://academy.1c-bitrix.ru/education/index.php?COURSE_ID=85&LESSON_ID=7273&LESSON_PATH=7252.7273)
+* [Установка комплексного компанента с удалением всего лишнего от Интерволга](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=95&LESSON_ID=7813&LESSON_PATH=7785.7813)
+* [bitrixdock](https://github.com/bitrixdock/bitrixdock)
+* [Как сбросить фасетный индекс?](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9A%D0%B0%D0%BA-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B5%D1%82%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%3F)
+* [Надо до конца прсмотреть](https://github.com/studiofact/wiki-bitrix/wiki)
+* [Не официальное API D7](https://doc.budagov.ru/index.html)
+* [Не официальное main.ui.grid.php](https://prominado.ru/blog/gridy-i-filtry-v-bitrix/) 
  ## CML2 agroup23 row=6241
 ```php
     $START_ID = 148150;
