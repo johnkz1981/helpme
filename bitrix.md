@@ -3,6 +3,14 @@
 * [Полезные вещи для Битрикса sadigi](https://github.com/sidigi/bitrix-info)
 * [Потрясающий Битрикс](https://github.com/awesomebitrix/awesome-bitrix)
 * [Битрикс проект](https://github.com/regiomedia/bitrix-project)
+## Logs
+```php
+Diag\Debug::writeToFile(
+      ['supplier_id' => $supplier_id, 'count' => $count, 'task_id' => $task_id, 'total_price' => $total_price, 'file' => $file],
+      Type\DateTime::createFromTimestamp(time()),
+      "/log/order_suppliers.log"
+    );
+ ```
 ## Bitrix key
  bitrix/modules/main/include.php 
  ## LineMedia help
