@@ -10,6 +10,10 @@ Diag\Debug::writeToFile(
       Type\DateTime::createFromTimestamp(time()),
       "/log/order_suppliers.log"
     );
+$logger = Monolog\Registry::getInstance('app');
+      $logger->info('Обновление свойств брендов', array(
+        $res["SETTINGS"]
+      ));
  ```
 ## Bitrix key
  bitrix/modules/main/include.php 
