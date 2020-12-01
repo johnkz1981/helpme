@@ -26,6 +26,7 @@ $logger = Monolog\Registry::getInstance('app');
  * demo сайта http://vitrina.auto-expert.info/
  * Для debug установить файл LinemediaAutoDebug::setOutputFilename($_SERVER['DOCUMENT_ROOT'] . '/__lm.log'); 
  ## Полезные ссылки 
+ * [ПРИМЕР РАБОТЫ С SETVIEWTARGET](https://pai-bx.com/wiki/1c-bitrix/29-example-of-setviewtarget/)
   * [Список пользователей](https://g-rain-design.ru/blog/posts/d7-orm-user-group/)
  * [добавление артикула в поиск](https://forwww.com/bitrix-articul-search-p2/)
  * [новая таблица в админке](https://coderun.ru/blog/bitrix-grid-v-adminke-ili-kak-pokazyvat-tablichnye-dannye-v-svojom-module-krasivo/)
