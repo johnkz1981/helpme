@@ -3,6 +3,7 @@
 * rsync -azvh www/upload/ /mnt/
 * rsync -avzhe "ssh -p 2222" --progress root@ugautodetal.ru:'/home/vue/\[sharewood.biz\]\ Фреймворк\ NuxtJS/' .
 * https://losst.ru/rsync-primery-sinhronizatsii
+* --append-verify докачать файл
 
 ## Поиск find and grep
 * find . -name 'linemedia.' -print -exec grep bitrix {} \\;
