@@ -11,8 +11,8 @@ git revert 263f6a51
 git add -A .
 
 ### Подключить внешнюю ветку
-git remote add origin git@bitbucket.org:huntworld/main_repo.git
-git remote -v
+* git remote add origin git@bitbucket.org:huntworld/main_repo.git
+* git remote -v
 
 ### Обновить репозиторий
 git pull
