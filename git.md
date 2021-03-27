@@ -18,3 +18,6 @@ git add -A .
 git pull
 ### Создание ветки и связка с существующей
 git checkout -b huntSelf origin/huntSelf
+
+### revert файла
+git checkout HEAD cron/_image_optimizer.list 
