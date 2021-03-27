@@ -16,3 +16,5 @@ git add -A .
 
 ### Обновить репозиторий
 git pull
+### Создание ветки и связка с существующей
+git checkout -b huntSelf origin/huntSelf
