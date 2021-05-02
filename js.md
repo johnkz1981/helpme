@@ -21,3 +21,5 @@ const getMethods = (obj) => {
     return [...properties.keys()].filter(item => typeof obj[item] === 'function')
   };
   ```
+### Нативные аналоги jQuery 
+https://dev-gang.ru/article/nativnye-analogi-jquery-93vqf10ia8/
