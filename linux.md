@@ -108,3 +108,6 @@ https://medium.com/@borekb/zsh-via-msys2-on-windows-3964a943b1ce
 nc -z -v [hostname/IP address] [port number]
 ### Обнавление команды по умолчанию
 update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+### Проверка SSL сертификатов
+openssl x509 -noout -text -in your.crt
+openssl rsa -noout -text -in your.key
