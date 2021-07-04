@@ -58,8 +58,6 @@ https://support.citrix.com/article/CTX214360
 ## ls
 * -d использовать только имена каталога ,без файлов внутри
 * ls -d \*/ показать только каталоги
-## ZSH
-https://isavel.pro/?p=47
 ## iconv
 * параметр -c пропустить warning
 * iconv -fcp1251 -tutf8 file.txt
@@ -102,8 +100,7 @@ tail -25 file.txt | tail -5
 
 ### Punycode-конвертация
 https://www.reg.ru/whois/
-### ZSH и Плагины
-https://medium.com/@borekb/zsh-via-msys2-on-windows-3964a943b1ce 
+
 ### Проверка порта
 nc -z -v [hostname/IP address] [port number]
 ### Обнавление команды по умолчанию
