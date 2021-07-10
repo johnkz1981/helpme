@@ -36,3 +36,5 @@ Create New Project -> PhpStorm Workshop Project
 * https://weburoki.pro/php-razrabotka-video-kurs-po-ide-phpstorm
 * *Посмотреть профилирование найти узкий участок кода и посмотреть PhpUnit*
 ### Точки останова находятся на вкладках :star:*Favorites*
+### Снипеты
+Settings/Preferences dialog Ctrl+Alt+S, select Editor | Live Templates.
