@@ -11,3 +11,5 @@ https://magetv.belvgdev.com/mAcademyUiComponents/190%20Create%20a%20KnockoutJS%2
 
 debug
 https://magetv.belvgdev.com/mAcademyUiComponents/200%20Debug%20UI%20Components%20with%20uiRegistry.mp4
+210 Get, set & remove UI Component properties.mp4
+
