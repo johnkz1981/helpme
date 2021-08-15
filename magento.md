@@ -15,3 +15,5 @@ https://magetv.belvgdev.com/mAcademyUiComponents/210%20Get,%20set%20&%20remove%2
 
 intercepter
 5 - 2
+plugin
+5 - 4
