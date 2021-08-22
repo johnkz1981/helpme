@@ -19,3 +19,5 @@ plugin
 5 - 4
 filter
 6 - 9
+select, join, distinct
+6 - 10
