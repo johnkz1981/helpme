@@ -51,3 +51,7 @@ git remote add origin git@gitlab.com:johnkz1981/test.git
 git push -u origin --all
 git push -u origin --tags
 ```
+### Check ignore
+git check-ignore -v
+### Оформление коммитов BELVG
+https://youtrack.belvgdev.com/articles/ADM-A-58/General-rules
