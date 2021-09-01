@@ -21,3 +21,5 @@ filter
 6 - 9
 select, join, distinct
 6 - 10
+```
+bin/magento setup:static-content:deploy -f -t Solera/wine
