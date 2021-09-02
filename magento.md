@@ -23,3 +23,22 @@ select, join, distinct
 6 - 10
 ```
 bin/magento setup:static-content:deploy -f -t Solera/wine
+### Дима
+```bash
+php bin/magento setup:store-config:set --base-url="http://casadiluce.local:3010/"
+php bin/magento setup:store-config:set --base-url-secure="https://casadiluce.local:3010/"
+php bin/magento config:set web/secure/use_in_frontend 0
+php bin/magento config:set web/cookie/cookie_domain 0                
+php bin/magento config:set web/cookie/cookie_httponly 0
+php bin/magento config:set web/secure/use_in_adminhtml 0
+
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento setup:static-content:deploy -f
+php bin/magento cache:flush
+chmod -R 777 var/ pub/ generated/
+
+php bin/magento cache:flush
+
+COMPOSER_MEMORY_LIMIT=-1 composer install --ignore-platform-reqs -vvv
+```
