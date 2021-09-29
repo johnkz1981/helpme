@@ -4,3 +4,5 @@ docker exec -it test_db_1 bash
 docker exec -itu0 test_db_1 bash
 ### IP container
 docker inspect  casadiluce_db | grep IPAddress
+### Format output
+docker ps  --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}"
