@@ -108,3 +108,5 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3 2
 ### Проверка SSL сертификатов
 * openssl x509 -noout -text -in your.crt
 * openssl rsa -noout -text -in your.key
+### editor default
+sudo update-alternatives --config editor
