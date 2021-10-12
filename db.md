@@ -85,4 +85,6 @@ SHOW TABLE STATUS FROM `database` LIKE 'table'
 pragma table_info('Remainder');
 ```
 ## remove protection
+```
 sed -i 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' dump.sql
+```
