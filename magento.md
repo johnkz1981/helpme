@@ -42,3 +42,9 @@ php bin/magento cache:flush
 
 COMPOSER_MEMORY_LIMIT=-1 composer install --ignore-platform-reqs -vvv
 ```
+### Log
+```php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+                $log = $objectManager->create(\Psr\Log\LoggerInterface::class);
+                $log->debug($this->getQuoteId());
+                ```
