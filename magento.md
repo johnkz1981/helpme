@@ -23,6 +23,7 @@ select, join, distinct
 6 - 10
 ```
 bin/magento setup:static-content:deploy -f -t Solera/wine
+### Diag Js
 require('uiRegistry').get((uiItem) => console.log(uiItem.name))
 ### Дима
 ```bash
