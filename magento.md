@@ -23,6 +23,7 @@ select, join, distinct
 6 - 10
 ```
 bin/magento setup:static-content:deploy -f -t Solera/wine
+require('uiRegistry').get((uiItem) => console.log(uiItem.name))
 ### Дима
 ```bash
 php bin/magento setup:store-config:set --base-url="http://casadiluce.local:3010/"
