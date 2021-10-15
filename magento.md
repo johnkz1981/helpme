@@ -23,8 +23,7 @@ select, join, distinct
 6 - 10
 ```
 bin/magento setup:static-content:deploy -f -t Solera/wine
-### Diag Js
-require('uiRegistry').get((uiItem) => console.log(uiItem.name))
+
 ### Дима
 ```bash
 php bin/magento setup:store-config:set --base-url="http://casadiluce.local:3010/"
@@ -49,4 +48,8 @@ COMPOSER_MEMORY_LIMIT=-1 composer install --ignore-platform-reqs -vvv
 $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
 $log = $objectManager->create(\Psr\Log\LoggerInterface::class);
 $log->debug($this->getQuoteId());
+```
+### Diag Js
+```js
+require('uiRegistry').get((uiItem) => console.log(uiItem.name))
 ```
