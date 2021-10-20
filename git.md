@@ -55,3 +55,6 @@ git push -u origin --tags
 git check-ignore -v
 ### Оформление коммитов BELVG
 https://youtrack.belvgdev.com/articles/ADM-A-58/General-rules
+### Удалить неотслеживаемые файлы
+git clean -f 
+
