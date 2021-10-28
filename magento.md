@@ -53,3 +53,8 @@ $log->debug($this->getQuoteId());
 ```js
 require('uiRegistry').get((uiItem) => console.log(uiItem.name))
 ```
+### urn generated
+```
+dockergento magento dev:urn-catalog:generate 123
+sed 's/\/var\/www\/html/\/home\/johnkz\/docker\/100web/g' 123 > .idea/misc.xml
+```
