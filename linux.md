@@ -111,3 +111,6 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3 2
 * openssl rsa -noout -text -in your.key
 ### editor default
 sudo update-alternatives --config editor
+### Изменить часовой пояс.
+sudo unlink /etc/localtime
+sudo ln -s /usr/share/zoneinfo/Europe/Moscow /etc/localtime
