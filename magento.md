@@ -83,3 +83,5 @@ define(['uiRegistry'], function (registry){
     }
 })
 ```
+### path base lib js
+vendor/magento/module-ui/view/base/web/js/lib
