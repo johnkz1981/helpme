@@ -74,7 +74,7 @@ define(['uiRegistry'], function (registry){
     return function (Select){
         return Select.extend({
             update: function (value) {
-                this._super(); console.log(this.customName)
+                this._super();
                 registry.get(this.customName, function (input) {
                     input.validation['max_text_length'] = 30;
                 }.bind(this));
