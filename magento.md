@@ -58,3 +58,28 @@ require('uiRegistry').get((uiItem) => console.log(uiItem.name))
 dockergento magento dev:urn-catalog:generate 123
 sed 's#/var/www/html#/home/johnkz/docker/100web#g' 123 > .idea/misc.xml
 ```
+### mixin
+```js
+var config = {    
+    config: {
+        mixins: {
+            'Magento_Ui/js/form/element/region': {
+                'BelVG_StreetValidate/js/region-mixin': true
+            }
+        }
+    }
+};
+
+define(['uiRegistry'], function (registry){
+    return function (Select){
+        return Select.extend({
+            update: function (value) {
+                this._super(); console.log(this.customName)
+                registry.get(this.customName, function (input) {
+                    input.validation['max_text_length'] = 30;
+                }.bind(this));
+            }
+        })
+    }
+})
+```
