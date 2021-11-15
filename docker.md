@@ -6,3 +6,5 @@ docker exec -itu0 test_db_1 bash
 docker inspect  casadiluce_db | grep IPAddress
 ### Format output
 docker ps  --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}"
+### IP xdebug ubuntu
+ 172.17.0.1
