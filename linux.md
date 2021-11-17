@@ -114,3 +114,5 @@ sudo update-alternatives --config editor
 ### Изменить часовой пояс.
 sudo unlink /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Europe/Moscow /etc/localtime
+# Ubuntu
+update-alternatives --config php
