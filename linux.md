@@ -116,3 +116,5 @@ sudo unlink /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 # Ubuntu
 update-alternatives --config php
+# Проверка сертификата домена через консоль.
+echo | openssl s_client -servername ugautodetal.ru -connect ugautodetal.ru:443 2>/dev/null | openssl x509 -noout -dates
