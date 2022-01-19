@@ -59,5 +59,5 @@ https://youtrack.belvgdev.com/articles/ADM-A-58/General-rules
 git clean -f 
 
 ### Формат git log
-git log --pretty=format:'%C(yellow)%h %C(cyan)%cr | %C(reset) %an | %C(green)%s%d'
-git config --global pretty.me format:'%C(yellow)%h %C(cyan)%cr | %C(reset) %an | %C(green)%s%d'
+* git log --pretty=format:'%C(yellow)%h %C(cyan)%cr | %C(reset) %an | %C(green)%s%d'
+* git config --global pretty.me format:'%C(yellow)%h %C(cyan)%cr | %C(reset) %an | %C(green)%s%d'
