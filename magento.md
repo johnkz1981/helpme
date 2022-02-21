@@ -57,7 +57,7 @@ var config = {
     config: {
         mixins: {
             'Magento_Ui/js/form/element/region': {
-                'BelVG_StreetValidate/js/region-mixin': true
+                'Vendor_StreetValidate/js/region-mixin': true
             }
         }
     }
