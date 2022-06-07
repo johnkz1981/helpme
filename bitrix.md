@@ -12,3 +12,7 @@
  * https://www.lucidchart.com/documents/view/4e06-0c98-525bd01e-8fb3-56ae0a009f9d алгоритм поиска
  * demo сайта http://vitrina.auto-expert.info/
  * Для debug установить файл LinemediaAutoDebug::setOutputFilename($_SERVER['DOCUMENT_ROOT'] . '/__lm.log'); 
+### Удаление события
+```sql
+delete from b_module_to_module where FROM_MODULE_ID = 'linemedia.autosuppliers' and MESSAGE_ID = 'OnAfterAdminMenuBuild';
+```
