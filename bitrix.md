@@ -16,3 +16,7 @@
 ```sql
 delete from b_module_to_module where FROM_MODULE_ID = 'linemedia.autosuppliers' and MESSAGE_ID = 'OnAfterAdminMenuBuild';
 ```
+### Распаковка архива битрикс
+```sh
+cat *$(ls -v  agroup23.ru_20220628_064101_full_eb4473d3.tar.gz*) | tar xzf -
+```
