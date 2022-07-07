@@ -20,3 +20,5 @@ delete from b_module_to_module where FROM_MODULE_ID = 'linemedia.autosuppliers' 
 ```sh
 cat *$(ls -v  agroup23.ru_20220628_064101_full_eb4473d3.tar.gz*) | tar xzf -
 ```
+### Чистый шаблон.
+https://github.com/KarionovV/bitrixclear
