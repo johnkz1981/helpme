@@ -123,6 +123,8 @@ xargs
 ### SED песочница
 https://sed.js.org/
 ### процессы
+```
 netstat -nltp
 ss -nltp
 ps afx
+```
