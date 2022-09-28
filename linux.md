@@ -122,3 +122,7 @@ echo | openssl s_client -servername ugautodetal.ru -connect ugautodetal.ru:443 2
 xargs
 ### SED песочница
 https://sed.js.org/
+### процессы
+netstat -nltp
+ss -nltp
+ps afx
