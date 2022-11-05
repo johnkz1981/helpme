@@ -128,5 +128,5 @@ netstat -nltp
 ss -nltp
 ps afx
 ```
-### Передача параметров  в конец.
+### Удаления мусора на yug.
 ls  | grep -v v8_C187_148c4 |xargs rm
