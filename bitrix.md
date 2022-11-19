@@ -22,3 +22,31 @@ cat *$(ls -v  agroup23.ru_20220628_064101_full_eb4473d3.tar.gz*) | tar xzf -
 ```
 ### Чистый шаблон.
 https://github.com/KarionovV/bitrixclear
+### ORM
+```php
+$arRes = \Bitrix\Iblock\Elements\ElementElectronicsTable::query()
+            ->registerRuntimeField("CNT", array(
+                    "data_type" => "integer",
+                    "expression" => array("count(%s)", "ID")
+                )
+            )
+            ->registerRuntimeField("GROUP", array(
+                    "data_type" => "string",
+                    "expression" => array("group_concat(%s order by %s)", "ID", "ID")
+                )
+            )
+            ->addSelect('CNT')
+            ->addSelect('GROUP')
+            ->addSelect('NO.VALUE', 'NO_')
+            ->whereNotNull('NO.VALUE')
+            ->addGroup('NO.VALUE')
+            ->having('CNT', '>', '1')
+            ->setLimit(10)
+            //->getQuery();
+            ->exec();
+
+        //var_dump($arRes);
+        while ($el = $arRes->fetch()){
+            var_dump($el);
+        }
+   ```     
