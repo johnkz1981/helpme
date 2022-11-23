@@ -88,3 +88,46 @@ pragma table_info('Remainder');
 ```
 sed -i 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' dump.sql
 ```
+## backup mysql
+```sh
+#!/bin/sh
+
+#var
+USER="user"
+PASS="password"
+DIR="/var/www/backup/mysql/daily"
+
+cd "$DIR"
+
+if [ ! -d "$DIR" ]
+then
+mkdir -p $DIR
+fi
+
+LOG="/var/log/mysql_dump.log"
+if [ ! -f "$LOG" ]
+then
+touch $LOG
+fi
+
+TIMENAME=`date +%d.%m.%Y-%H.%M`
+db=`mysql -u$USER -p$PASS -Bse 'show databases' | grep -v information_schema | grep -v mysql | grep -v performance_schema | grep -v sys`
+for n in $db; do
+        TIMEDUMP=`date '+%T %x'`
+        echo "backup has been done at $TIMEDUMP : $TIMENAME on db: $n" > $LOG
+    nice -n 19 mysqldump --opt --disable-keys --single-transaction --routines --no-tablespaces -u$USER -h localhost -p$PASS $n | gzip -9 > "$DIR/$n-$TIMENAME.sql.gz"
+done
+
+
+#rotate
+#cd "$DIR"
+if [ ! -d $DIR ];
+then
+echo "$DIR dir tot found!!!"
+exit 1
+else
+find $DIR -type f -mtime +6 -name "*.sql.gz" | xargs rm -f
+fi
+```
+
+
