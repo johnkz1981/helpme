@@ -130,3 +130,9 @@ ps afx
 ```
 ### Удаления мусора на yug.
 ls  | grep -v v8_C187_148c4 |xargs rm
+
+### Прослушивание порта
+```sh
+nc -l localhost 5555
+telnet localhost 5555
+```
