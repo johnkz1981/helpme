@@ -10,6 +10,7 @@
 * find . -name 'linemedia.' -print -exec grep bitrix {} + вывод с именем файла
 * find . -not -name 'test' -print -maxdepth 1 -exec rm -rf {} \\; удалить все кроме текущей папки
 * find . -name '\*.php' -exec grep default_old1 {} +
+* find . -ctime +0 -name '*.xml' -exec ls -lrth {} +
 
 ## Generate and copy public key
 * ssh-keygen -t rsa -b 4096 -C "johnkz@inbox.ru"
