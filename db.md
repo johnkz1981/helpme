@@ -147,3 +147,7 @@ password
 mysql> set global log_bin_trust_function_creators = 0;
 mysql> quit;
 ```
+## Дамп с ограничением по строкам в бд
+```bash
+sudo mysqldump --all-databases --where="1 limit 50" > all50.sql
+```
