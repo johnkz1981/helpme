@@ -50,3 +50,7 @@ $arRes = \Bitrix\Iblock\Elements\ElementElectronicsTable::query()
             var_dump($el);
         }
    ```     
+### Преобразавоние строки к нужному шаблону
+```php
+CComponentEngine::makePathFromTemplate('/personal/cancel/#ID#?', ['ID' => 6666])
+```
