@@ -54,3 +54,5 @@ $arRes = \Bitrix\Iblock\Elements\ElementElectronicsTable::query()
 ```php
 CComponentEngine::makePathFromTemplate('/personal/cancel/#ID#?', ['ID' => 6666])
 ```
+### Меркуриал
+hg diff -r436..437 php.d/30*
