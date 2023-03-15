@@ -139,3 +139,9 @@ telnet localhost 5555
 ```
 ### Инфо о файле
 stat
+
+### Добавления и удаления пользователя из группы.
+  ```bash
+  usermod -aG wheel bitrix  
+  gpasswd -d bitrix wheel
+  ```
