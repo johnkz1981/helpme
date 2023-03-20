@@ -79,3 +79,10 @@ stat
   usermod -aG wheel bitrix  
   gpasswd -d bitrix wheel
   ```
+### Переменные: все, код ошибки, шелл, path
+```
+set
+echo $?
+echo $0 echo $SHELL
+echo $PATH
+```
