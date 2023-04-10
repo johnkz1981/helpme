@@ -56,3 +56,8 @@ CComponentEngine::makePathFromTemplate('/personal/cancel/#ID#?', ['ID' => 6666])
 ```
 ### Меркуриал
 hg diff -r436..437 php.d/30*
+
+### Выборка конкретных полей
+```php
+\Bitrix\Iblock\Elements\ElementLmAutoDiscountTable::getByPrimary(296311, ['select' => ['NAME', 'discount']])->fetchObject();
+```
