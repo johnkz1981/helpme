@@ -61,3 +61,9 @@ hg diff -r436..437 php.d/30*
 ```php
 \Bitrix\Iblock\Elements\ElementLmAutoDiscountTable::getByPrimary(296311, ['select' => ['NAME', 'discount']])->fetchObject();
 ```
+### MailHog
+http://ua.test/bitrix/admin/smtp_edit.php?ID=1&lang=ru
+Поменять порт и сервер на localhost:1025
+Сбросить кэш запустить агенты
+./jedi cache:clear
+./jedi agent:execute
