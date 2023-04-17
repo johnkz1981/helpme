@@ -87,3 +87,7 @@ echo $?
 echo $0 echo $SHELL
 echo $PATH
 ```
+### Чистый конфиг
+```
+egrep -vn '^;|^$' /etc/php/8.2/fpm/pool.d/www.conf
+```
