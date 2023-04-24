@@ -29,6 +29,11 @@ GRANT ALL PRIVILEGES ON sad.* TO bitrix0@localhost;
 flush privileges;
 SHOW GRANTS FOR 'jeffrey'@'localhost';
 ```
+### Убрать доступ для пользователя
+```sql
+REVOKE ALL PRIVILEGES ON goods.* FROM bitrix0@localhost;
+```
+
 ## Просмотр количество строк
 ```sql
 select TABLE_NAME, table_rows from information_schema.tables where table_name like 'b_iblock_el%';
