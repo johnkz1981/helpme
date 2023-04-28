@@ -91,3 +91,8 @@ echo $PATH
 ```
 egrep -vn '^;|^$' /etc/php/8.2/fpm/pool.d/www.conf
 ```
+### SSH проброс
+```
+ssh -L 8088:192.168.0.2:8080 agroup
+```
+мой адрес http://localhost:8088/
