@@ -12,6 +12,7 @@
 * find . -name '\*.php' -exec grep default_old1 {} +
 * find . -ctime +0 -name '*.xml' -exec ls -lrth {} +
 * ``` find . -ctime -5 -regex '.*csv\|.*\.xls' ```
+* ``` find -newermt "2023-03-22" ! -newermt '2023-03-24' -name '.htaccess' ```
 
 ## Удалить добавить ip адрес
 * ip a del 192.168.20.221/24 dev eth0
