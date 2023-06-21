@@ -69,3 +69,12 @@ http://ua.test/bitrix/admin/smtp_edit.php?ID=1&lang=ru
 ./jedi cache:clear
 ./jedi agent:execute
 ```
+### Элемент URL
+```php
+$row = ElementElectronicsTable::query()
+                ->addSelect('*')
+                ->addSelect('IBLOCK.DETAIL_PAGE_URL', 'DETAIL_PAGE_URL')
+                ->addOrder('IBLOCK_SECTION_ID')
+                ->exec()->fetch();
+\CIBlock::ReplaceDetailUrl($row['DETAIL_PAGE_URL'], $row, false, 'E')
+```
