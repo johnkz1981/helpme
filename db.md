@@ -156,3 +156,7 @@ mysql> quit;
 ```bash
 sudo mysqldump --all-databases --where="1 limit 50" > all50.sql
 ```
+## Просмотр типа таблиц
+```sql
+SELECT TABLE_NAME, ENGINE FROM INFORMATION_SCHEMA.TABLES   WHERE TABLE_SCHEMA = 'lm';
+```
