@@ -78,3 +78,7 @@ $row = ElementElectronicsTable::query()
                 ->exec()->fetch();
 \CIBlock::ReplaceDetailUrl($row['DETAIL_PAGE_URL'], $row, false, 'E')
 ```
+### Очистить настройки виртуальной машины битрикс
+```sh
+rm -rf /etc/ansible/host* /etc/ansible/group_vars/ /etc/ansible/ansible-roles
+```
