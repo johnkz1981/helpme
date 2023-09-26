@@ -63,3 +63,8 @@ git clean -f
 * git config --global pretty.me format:'%C(yellow)%h %C(cyan)%cr | %C(reset) %an | %C(green)%s%d'
 ### Только измененые
 git ls-files --modified
+### Точки разъединения комитов
+git log master..test|tail
+
+
+
