@@ -97,3 +97,10 @@ egrep -vn '^;|^$' /etc/php/8.2/fpm/pool.d/www.conf
 ssh -L 8088:192.168.0.2:8080 agroup
 ```
 мой адрес http://localhost:8088/
+### cat
+```
+cat <<EOF > output.txt
+This text will be recorded to the file named output.txt.
+You can have multiple lines of text in the heredoc.
+EOF
+```
