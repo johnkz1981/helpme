@@ -104,3 +104,7 @@ This text will be recorded to the file named output.txt.
 You can have multiple lines of text in the heredoc.
 EOF
 ```
+### PS
+```
+ps -p <PID> -o %cpu,%mem,cmd
+```
